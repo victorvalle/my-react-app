@@ -17,9 +17,12 @@ p {
 }
 
 a {
-  color: #5334F5;
+  color: #5E6F96;
   text-decoration: none;
   font-weight: 600;
+}
+a:hover {
+  color: #4D4D66;
 }
 
 .Hero {
@@ -55,7 +58,7 @@ a {
 
 p {color: black}
 
-.MainCall button {
+.boton {
   font-size: 16px;
   font-family: Montserrat;
   text-transform: uppercase;
@@ -72,7 +75,7 @@ p {color: black}
   margin-top: 16px;
 }
 
-.MainCall button:hover {
+.boton:hover {
   background: #D73E33;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   transform: translateY(-1px);
@@ -88,6 +91,11 @@ p {color: black}
 .MainCall p {
   font-size: 19px;
   margin-top: -16px;
+  color: #5E6F96;
+}
+
+.highlight {
+  font-size: 19px;
   color: #5E6F96;
 }
 
@@ -118,8 +126,8 @@ p {color: black}
 }
 
 .History p {
-  column-count: 2;
-  column-gap: 150px;
+  /* column-count: 2;
+  column-gap: 150px; */
   z-index: 2;
 }
 
@@ -188,6 +196,40 @@ h2 {
   font-weight: 600;
 }
 
+.tile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  flex: 1;
+}
+
+.text {
+  width: 60%;
+}
+
+.map {
+  max-width: 250px;
+}
+
+.third {
+  max-width: 30%;
+}
+
+.sixth {
+  max-width: 15%;
+}
+
+.calendario {
+  width: 142px;
+  height: auto;
+  margin-right: 200px;
+}
 
 
 @media (max-width: 768px) {
@@ -355,7 +397,7 @@ h2 {
   }
 }
 
-
+/* 
 .cls-1,.cls-40,.cls-48,.cls-56,.cls-62 {fill: none;}
 .cls-2{fill:#f2f4f7;}
 .cls-3{clip-path:url(#clip-path);}
@@ -420,69 +462,4 @@ h2 {
 .cls-62{stroke:#bdbdd1;stroke-width:3px;}
 .cls-63{opacity:0.51;}
 .cls-65{opacity:0.33;}
-
-/* 
-#clip-path {
-  transform: translate(65.99);
-}
-#clip-path.cls-1 {
-  cx
-  cx="1094.62" cy="1133.13" r="1075.01"
-}
-
-<clipPath id="clip-path" transform="translate(65.99)">
-  <circle class="cls-1" cx="1094.62" cy="1133.13" r="1075.01"/>
-</clipPath>
-<clipPath id="clip-path-2" transform="translate(65.99)">
-  <path class="cls-1" d="M2169.63,1133.13c0,593.71-481.3,1075-1075,1075s-1075-481.3-1075-1075"/>
-</clipPath>
-<clipPath id="clip-path-4" transform="translate(65.99)">
-  <path class="cls-1" d="M876.37,758.05s4.69,58.58,0,79.68l23.32,31.16,28.24-31.16s-11.4-23.44-20.78-79.68Z"/>
-</clipPath>
-<clipPath id="clip-path-5" transform="translate(65.99)">
-  <polygon class="cls-1" points="1276.64 684.13 1234.5 684.13 1224.5 777.82 1286.64 777.82 1276.64 684.13"/>
-</clipPath>
-<clipPath id="clip-path-6" transform="translate(65.99)">
-  <path class="cls-1" d="M1156.58,1113.75s4.7,208.41,10.72,281.33S1182.87,1753,1182.87,1753h71.45l13.25-495.25L1309.39,1753h65.93l-7.69-643.27Z"/>
-</clipPath>
-<clipPath id="clip-path-7" transform="translate(65.99)">
-  <polygon class="cls-1" points="1385.33 788.82 1312.35 753.18 1259.97 851.7 1206.6 747.18 1133.62 787.82 1141.21 858.41 1161.62 983.24 1137.03 1154.95 1259.97 1132.24 1382.92 1154.95 1358.33 983.24 1378.74 858.41 1385.33 788.82"/>
-</clipPath>
-<clipPath id="clip-path-8" transform="translate(65.99)">
-  <path class="cls-1" d="M1112.61,948.11s66-117.76,65.93-135-26.74-34.43-39.79-27.37-19.23,11.94-19.23,11.94l-86.9,178.9s-11.64,31.52-7.46,36.57,27.47,25.28,46.63,7.78c6-5.45,30.64-54.4,40.82-72.84"/>
-</clipPath>
-<clipPath id="clip-path-9" transform="translate(65.99)">
-  <path class="cls-1" d="M1236.49,1769.31l-1.37-9.3-33.39,1.1s-14.12,38.77-41.75,60.81c-35.78-3.56-49.21,14-49.21,14s35.82,18.49,85.46-1.6c0,0,14.89-6,22.83-4.83l.31,9.33,24.4-.8S1255.63,1805.32,1236.49,1769.31Z"/>
-</clipPath>
-<clipPath id="clip-path-10" transform="translate(65.99)">
-  <path class="cls-1" d="M1322.43,1769.31l1.37-9.3,33.39,1.1s14.12,38.77,41.74,60.81c35.78-3.56,49.21,14,49.21,14s-35.81,18.49-85.45-1.6c0,0-14.89-6-22.84-4.83l-.3,9.33-24.41-.8S1303.28,1805.32,1322.43,1769.31Z"/>
-</clipPath> */
-
-/* 
-<clipPath id="clip-path" transform="translate(65.99)">
-  <circle class="cls-1" cx="1094.62" cy="1133.13" r="1075.01"/>
-</clipPath>
-<clipPath id="clip-path-2" transform="translate(65.99)">
-  <path class="cls-1" d="M2169.63,1133.13c0,593.71-481.3,1075-1075,1075s-1075-481.3-1075-1075"/>
-</clipPath>
-<clipPath id="clip-path-4" transform="translate(65.99)">
-  <path class="cls-1" d="M876.37,758.05s4.69,58.58,0,79.68l23.32,31.16,28.24-31.16s-11.4-23.44-20.78-79.68Z"/>
-</clipPath>
-<clipPath id="clip-path-5" transform="translate(65.99)">
-  <polygon class="cls-1" points="1276.64 684.13 1234.5 684.13 1224.5 777.82 1286.64 777.82 1276.64 684.13"/>
-</clipPath>
-<clipPath id="clip-path-6" transform="translate(65.99)">
-  <path class="cls-1" d="M1156.58,1113.75s4.7,208.41,10.72,281.33S1182.87,1753,1182.87,1753h71.45l13.25-495.25L1309.39,1753h65.93l-7.69-643.27Z"/>
-</clipPath>
-<clipPath id="clip-path-7" transform="translate(65.99)">
-  <polygon class="cls-1" points="1385.33 788.82 1312.35 753.18 1259.97 851.7 1206.6 747.18 1133.62 787.82 1141.21 858.41 1161.62 983.24 1137.03 1154.95 1259.97 1132.24 1382.92 1154.95 1358.33 983.24 1378.74 858.41 1385.33 788.82"/>
-</clipPath>
-<clipPath id="clip-path-8" transform="translate(65.99)">
-  <path class="cls-1" d="M1112.61,948.11s66-117.76,65.93-135-26.74-34.43-39.79-27.37-19.23,11.94-19.23,11.94l-86.9,178.9s-11.64,31.52-7.46,36.57,27.47,25.28,46.63,7.78c6-5.45,30.64-54.4,40.82-72.84"/>
-</clipPath>
-<clipPath id="clip-path-9" transform="translate(65.99)">
-  <path class="cls-1" d="M1236.49,1769.31l-1.37-9.3-33.39,1.1s-14.12,38.77-41.75,60.81c-35.78-3.56-49.21,14-49.21,14s35.82,18.49,85.46-1.6c0,0,14.89-6,22.83-4.83l.31,9.33,24.4-.8S1255.63,1805.32,1236.49,1769.31Z"/>
-</clipPath>
-<clipPath id="clip-path-10" transform="translate(65.99)">
-  <path class="cls-1" d="M1322.43,1769.31l1.37-9.3,33.39,1.1s14.12,38.77,41.74,60.81c35.78-3.56,49.21,14,49.21,14s-35.81,18.49-85.45-1.6c0,0-14.89-6-22.84-4.83l-.3,9.33-24.41-.8S1303.28,1805.32,1322.43,1769.31Z"/>
-</clipPath> */
+ */
