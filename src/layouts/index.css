@@ -437,13 +437,25 @@ h2 {
 
 }
 
-@keyframes HeroAnimation {
-  0% {
-      opacity: 0;
-      transform: translateY(20px);
-  }
-  100% {
-      opacity: 1;
-      transform: translateY(0px);
-  }
+.Illustration .waves{
+  animation: 3s waves infinite;
+  animation-delay: 3s;
 }
+
+/* .Illustration .birds{
+  animation: 6s birds infinite;
+  animation-delay: 3s;
+} */
+
+@keyframes waves {
+  0%   {transform: translateX(0px); }
+  33%  {transform: translateX(40px); }
+  100% {transform: translateX(0px);}
+}
+
+
+/* @keyframes birds {
+  0%   {transform: translateY(0px); }
+  50%  {transform: translateY(200px);}
+  100% {transform: translateY(0px);}
+} */
