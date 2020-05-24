@@ -1,13 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
-// import Link from 'components'
 
 const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="TopArea">
         <div className="Illustration">
-          {/* <img src={require('../images/maria-victor.svg')} width="100%"/> */}
           <svg
             xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 2422.59 2294.21">
             <defs>
@@ -199,7 +196,7 @@ const IndexPage = () => (
         <div className="MainCall">
           <h1>María y Víctor</h1>
           <p>Queremos que seais parte de nuestra historia y para ello necesitamos vuestra confirmación</p>
-          <Link to="https://www.google.com"><button className="boton">CONFIRMAR</button></Link>
+          <a target="_blank" href="https://google.com"><button className="boton">CONFIRMAR</button></a>
         </div>
       </div>
       <div className="break1">
@@ -241,6 +238,7 @@ const IndexPage = () => (
         
         <h2>Ahora te toca a ti</h2>
         <span className="underline"></span>
+
         <br/>
         <br/>
 
@@ -249,7 +247,7 @@ const IndexPage = () => (
             <img src={require('../images/calendario.png')} width="100%"/>
             <br/>
             <br/>
-            <Link to="https://www.google.com"><button className="boton">CONFIRMAR</button></Link>
+            <a target="_blank" href="https://google.com"><button className="boton">CONFIRMAR</button></a>
           </div>
           <div class="right">
             <p className="highlight correct-margin">Queremos que nos acompañes en nuestro gran día porque sin ti no sería lo mismo. Y lo decimos de verdad, así que no te olvides de confirmárnoslo y no pierdas los detalles a continuación:</p>
@@ -257,7 +255,7 @@ const IndexPage = () => (
             <br/>
             <div>
               <img src={require('../images/map-point.png')} height="50px"/>
-              <p>En <Link to="https://laquintadeillescas.com/">La Quinta de Illescas</Link></p>
+              <p>En <a target="_blank" href="https://laquintadeillescas.com/">La Quinta de Illescas</a></p>
               <p>Boda y banquete en el mismo sitio, ¿ves qué fácil? Todo comodidades…</p>
             </div>
             <br/>
@@ -270,13 +268,13 @@ const IndexPage = () => (
                 <path className="bus" d="M0.96582 70.6776C0.96582 73.4517 3.2072 75.6845 5.96927 75.6845C8.73134 75.6845 10.9727 73.4517 10.9727 70.6776V55.1362C10.9727 49.4017 15.7882 43.9724 21.471 43.2724L27.2175 42.5896C25.5762 45.7069 24.4193 49.0155 23.9089 52.3603L13.8675 118.812C11.8055 132.46 21.3348 140.786 35.1503 140.629H73.4796C73.2917 139.384 73.09 138.159 73.09 136.864C73.09 123.047 84.2968 111.841 98.1124 111.841C111.936 111.841 123.135 123.047 123.135 136.864C123.135 138.15 122.947 139.384 122.759 140.629H347.424C347.242 139.384 347.057 138.159 347.057 136.864C347.057 123.047 358.245 111.841 372.08 111.841C385.895 111.841 397.102 123.047 397.102 136.864C397.102 138.15 396.902 139.384 396.716 140.629H452.136C465.962 140.453 477.159 126.507 477.159 112.691V25.1138C477.159 11.2983 465.962 0.406885 452.155 0.756885L155.249 8.62069C141.433 8.97069 119.218 11.2466 105.619 13.6828L52.2917 23.2069C46.5003 24.2414 40.9141 27.2862 36.2089 31.4017L20.2882 33.3465C9.46754 34.669 0.991683 44.2362 0.991683 55.1379V70.6793H0.96582V70.6776ZM159.412 34.3017C159.412 28.7759 163.895 24.1707 169.416 24.031L440.457 17.0448C445.973 16.9034 450.455 21.2638 450.455 26.7879V70.1517C450.455 75.6759 445.973 80.1586 440.457 80.1586H169.414C163.893 80.1586 159.411 75.6759 159.411 70.1517V34.3017H159.412ZM39.1693 49.9017C39.9572 44.4293 44.5744 37.9155 49.6934 35.85C80.2572 23.5052 117.704 22.9966 135.266 23.5931C140.79 23.7845 145.255 28.6362 145.255 34.1517V67.5189C145.255 73.0431 140.773 77.5258 135.249 77.5258H125.873C120.349 77.5258 111.619 78.9448 106.383 80.6965L40.6227 102.707C35.3779 104.45 31.771 101.438 32.5589 95.9827L39.1693 49.9017Z" fill="#BDBDD1"/>
               </svg> */}
               <p>Si no puedes o no te apetece coger el coche para llegar, no te preocupes. Queremos que disfrutes y te despreocupes al máximo ese día. Así que un <strong>autobús saldrá de la estación de Aluche a las 17:00</strong> para llevarte al bodorriorrr y luego traerte de vuelta. </p>
-              <Link to="https://g.page/laquintadeillescas?share">Cómo ir en coche</Link>
+              <a target="_blank" href="https://g.page/laquintadeillescas?share">Cómo ir en coche</a>
             </div>
             <br/>
             <br/>
             <div>
               <img src={require('../images/spotify.png')} height="50px"/>
-              <p>Ayúndanos a construir la fiesta. <Link to="https://open.spotify.com/playlist/1JDfLjKeSxInOYKG9Pf2Ur?si=90ygiSAySd6j-2EziZCEKQ">Añade a esta playlist</Link> canciones que te gustaría escuchar</p> 
+              <p>Ayúndanos a construir la fiesta. <a target="_blank" href="https://open.spotify.com/playlist/1JDfLjKeSxInOYKG9Pf2Ur?si=90ygiSAySd6j-2EziZCEKQ">Añade a esta playlist</a> canciones que te gustaría escuchar</p> 
             </div> 
             <br/>
             <br/>
@@ -324,21 +322,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-
-      {/* <div className="Place">
-        <h2>Cermemonia y Convite</h2>
-        <span className="underline"></span>
-        <br/>
-        <p className="bold">La Quinta de Illescas</p>
-        <p>Ctra. Madrid - Toledo (A-42)</p>
-        <p>Km. 30 (Salida 30B)</p>
-        <p>45200 Illescas (Toledo) </p>
-        <p>Tel. 925 51 12 07 </p>
-        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.9823953130526!2d-3.818030084799002!3d40.16494567883813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41f4029c1e3685%3A0xe528694c1b18788e!2sLa%20Quinta%20de%20Illescas%20-%20Finca%20para%20bodas!5e0!3m2!1sen!2ses!4v1588786713314!5m2!1sen!2ses" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
-  
-      
-    </div>
-    
+    </div> 
   </div>
 )
 
