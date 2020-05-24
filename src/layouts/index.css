@@ -230,6 +230,15 @@ h2 {
   padding-bottom: 40px;
 }
 
+.our-trip-sm {
+  display: none;
+}
+
+.correct-margin {
+  margin-top: 0;
+}
+
+
 
 @media (max-width: 800px) {
 
@@ -321,7 +330,7 @@ h2 {
     margin-right: 100px;
     padding-bottom: 40px;
   }
-  
+
 }
 
 
@@ -418,6 +427,14 @@ h2 {
     text-align: center;
   }
   
+  .our-trip {
+    display: none;
+  }
+
+  .our-trip-sm {
+    display: block;
+  }
+
 }
 
 @keyframes HeroAnimation {
