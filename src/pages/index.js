@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+// import Link from 'components'
 
 const IndexPage = () => (
   <div>
@@ -239,26 +240,8 @@ const IndexPage = () => (
         
         <h2>Ahora te toca a ti</h2>
         <span className="underline"></span>
-        {/* <p>Queremos que nos acompañes en nuestro gran día porque sin ti no sería lo mismo. Y lo decimos de verdad así que no te olvides de confirmárnoslo y no pierdas los detalles a continuación:</p> */}
-
         <br/>
         <br/>
-        <br/>
-
-        {/* <div className="tile">
-          <div className="third">
-            <img src={require('../images/calendario.png')} width="50%"/>
-          </div>
-          <div className="third">
-            <img src={require('../images/map-point.png')} height="50px"/>
-            <p>En la Quinta de Illescas</p>
-            <p>Boda y banquete en el mismo sitio, ¿ves qué fácil? Todo comodidades…</p>
-          </div>
-          <div className="third">
-            <img src={require('../images/bus.png')} height="50px"/>
-            <p>Si no puedes o no te apetece coger el coche para llegar, no te preocupes. Queremos que disfrutes y te despreocupes al máximo ese día. Así que un <strong>autobús saldrá de la estación de Aluche a las 17:00</strong> para llevarte al bodorriorrr y luego traerte de vuelta. </p>
-          </div>
-        </div> */}
 
         <div className="tile">
           <div className="calendario">
