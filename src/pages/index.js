@@ -278,6 +278,13 @@ const IndexPage = () => (
             </div> 
             <br/>
             <br/>
+            <div>
+              <img src={require('../images/gift.png')} height="50px"/>
+              <p>Con tu presencia es suficiente pero si te apetece contribuir con nuestra luna de miel (cuando pueda ser que sea), nuestro número de cuenta es el siguiente:</p>
+              <p>ESXX XXXX XXXX XXXXXXXXXXX</p> 
+            </div>
+            <br/>
+            <br/>
           </div>         
         </div>
 
@@ -319,6 +326,10 @@ const IndexPage = () => (
           <div className="sixth">
             <strong>How</strong>
             <p>Con mucho love</p>
+          </div>
+          <div className="sixth">
+            <strong>Why</strong>
+            <p>Why not!</p>
           </div>
         </div>
       </div>
