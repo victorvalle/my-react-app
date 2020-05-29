@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 
-export default class FancyFooter extends Component {
+export default class Illustration extends Component {
 	render() {
 		return (
 			<div className={styles.Illustration}>
