@@ -53,13 +53,13 @@
        display: block;
     text-align: center;
     padding-top: 24px;
-  }
-
-  .MainCall {
-    flex: 1;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    
+      .MainCall {
+        flex: 1;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
   }
   @media (max-width: 410px) {
 

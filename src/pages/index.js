@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../layouts/styles.module.scss'
-import {Header} from '../components'
+import { Header } from '../components'
 
 const IndexPage = () => (
 	<div>
@@ -10,6 +10,7 @@ const IndexPage = () => (
 				<div className={styles.b1Leaves}>
 					<img src={require('../images/break1.png')} width="100%" />
 				</div>
+				<span />
 			</div>
 			<div className={styles.LeafRight}>
 				<img src={require('../images/leaf-right.png')} width="100%" />
@@ -45,7 +46,7 @@ const IndexPage = () => (
 							más, que hemos ido descubriendo juntos.
 						</p>
 					</div>
-					<div className={styles.rightMap}>
+					<div className={styles.right && styles.map}>
 						<img
 							src={require('../images/camino.png')}
 							width="100%"
@@ -205,6 +206,7 @@ const IndexPage = () => (
 				<div className={styles.b2Leaves}>
 					<img src={require('../images/break2.png')} width="100%" />
 				</div>
+				<span />
 			</div>
 			<div className={styles.LeafLeft}>
 				<img src={require('../images/leaf-left.png')} width="100%" />

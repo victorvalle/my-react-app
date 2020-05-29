@@ -1,23 +1,20 @@
-
 .Illustration {    
   width: 45%;
+  .waves{
+    animation: waves 3s infinite;
+    animation-delay: 3s;
+  }
 
-@media (max-width: 800px) {
+  .birds{
+    animation: birds 6s infinite;
+    animation-delay: 3s;
+  }
+
+  @media (max-width: 800px) {
   .Illustration {    
     width: 100%;
   }}
 
-}
-
-
-.Illustration .waves{
-  animation: 3s waves infinite;
-  animation-delay: 3s;
-}
-
-.Illustration .birds{
-  animation: 6s birds infinite;
-  animation-delay: 3s;
 }
 
 @keyframes waves {
