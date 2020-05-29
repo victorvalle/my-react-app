@@ -203,10 +203,10 @@ const IndexPage = () => (
 				</div>
 			</div>
 			<div className={styles.break2}>
+				<span />
 				<div className={styles.b2Leaves}>
 					<img src={require('../images/break2.png')} width="100%" />
 				</div>
-				<span />
 			</div>
 			<div className={styles.LeafLeft}>
 				<img src={require('../images/leaf-left.png')} width="100%" />
