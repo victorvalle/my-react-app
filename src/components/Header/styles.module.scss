@@ -1,0 +1,89 @@
+
+.TopArea {
+  margin: 0px 50px 0px 50px;
+  padding-top: 75px;
+  display: flex;
+  
+  .MainCall {
+    flex: 1;
+    padding-top: 115px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 16px;
+    color: #5E6F96;
+  }
+  
+  
+  .boton {
+    font-size: 16px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: white;
+    background: #EB493D;
+    border: none;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+    padding: 16px 20px;
+    margin-top: 16px;
+  }
+  
+  .boton:hover {
+    background: #D73E33;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-1px);
+  }
+  
+  .MainCall h1 {
+    font-family: Jost;
+    font-size: 3.25rem;
+    font-weight: 600;
+    color: #4D4D66;
+  }
+  
+  .MainCall p {
+    font-size: 19px;
+    margin-top: -16px;
+    color: #5E6F96;
+  }
+  @media (max-width: 800px) {
+       display: block;
+    text-align: center;
+    padding-top: 24px;
+  }
+
+  .MainCall {
+    flex: 1;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @media (max-width: 410px) {
+
+
+    margin: 0px 16px 0px 16px;
+    padding-top: 24px;
+    display: flex;
+    display: block;
+    text-align: center;
+  
+
+  .MainCall {
+    flex: 1;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .MainCall h1 {
+    font-size: 2.5rem;
+  }
+
+
+  
+
+  }
+}
