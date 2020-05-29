@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "María y Víctor",
+  "description": "Una Sitio Boda",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Víctor Valle",
   "dependencies": {
     "gatsby": "^2.22.12",
     "gatsby-link": "^2.4.3",
@@ -28,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/victorvalle/boda"
   }
 }
