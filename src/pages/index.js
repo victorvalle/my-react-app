@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from '../layouts/styles.module.scss'
 
 const IndexPage = () => (
   <div>
-    <div className="Hero">
-      <div className="TopArea">
-        <div className="Illustration">
+    <div className={styles.Hero}>
+      <div className={styles.TopArea}>
+        <div className={styles.Illustration}>
           <svg
             xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 2422.59 2294.21">
             <defs>
@@ -34,7 +35,7 @@ const IndexPage = () => (
               </clipPath>
             </defs>
             <circle cx="1160.61" cy="1133.13" r="1075.01" fill="#f2f4f7"/>
-            <g className="sky" clipPath="url(#a)">
+            <g className={styles.sky} clipPath="url(#a)">
               <path fill="#eff1f4" d="M98.02 647.26l2228.87-31.09 32.48 527.39H42.2l55.82-496.3z"/>
               <path fill="#eaecef" d="M25.39 753.7l2323.4 106.1 10.58 283.76H42.2L25.39 753.7z"/>
               <path fill="#e2e4e8" d="M65.99 1015.8l2293.38-114.61v242.37H42.2l23.79-127.76z"/>
@@ -44,14 +45,14 @@ const IndexPage = () => (
               <path fill="#fff" d="M1160.33 729.77s-90.67-57.17-166.19-46.51S928.12 558.53 828.81 565 721.52 691.77 677.16 672.43s-99.42-58.93-138.51-25.17-30.9 68.47-84.42 55.42-113.69 27.09-113.69 27.09z" opacity=".37" />
             </g>
             <path fill="#9292b7" d="M2235.62 1133.13c0 593.71-481.3 1075-1075 1075s-1075-481.3-1075-1075"/>
-            <g className="ground" clipPath="url(#b)">
+            <g className={styles.ground} clipPath="url(#b)">
               <path fill="#8989ad" d="M619.07 2156.34l1679.15-17.99-100.76-412.4-2010.22-36.03 431.83 466.42z"/>
               <path fill="#8c8caf" d="M619.07 2156.34l1679.15-17.99-111.14-299.51-1806.94 59.43 238.93 258.07z"/>
               <path fill="#8a8aaa" d="M619.07 2156.34l1679.15-17.99-95.83-145.86-1780.26-48.87 196.94 212.72z"/>
               <path fill="#8686a8" d="M619.07 2156.34l1679.15-17.99-95.83-145.86-1644.76 97.48 61.44 66.37z"/>
               <path fill="#7f7fa5" d="M665.62 2144.35c6.06-2 1418.79-14.89 1418.79-14.89l-545.61 156.76s-675.29 18-703.26 0-169.92-141.87-169.92-141.87z"/>
             </g>
-            <g className="sea" clipPath="url(#a)" data-name="background circle mask">
+            <g className={styles.sea} clipPath="url(#a)" data-name="background circle mask">
               <path fill="#5e6f96" d="M51.85 1133.48h2344.18v517.86H51.85z"/>
               <path fill="#354b66" d="M51.85 1133.48h2344.18v517.86H51.85z"/>
               <path fill="#415675" d="M2396.03 1651.35H51.85L8.29 1159.94l2387.74 36.27v455.14z"/>
@@ -65,13 +66,13 @@ const IndexPage = () => (
               <path fill="#677691" d="M1051.66 2110.38c-2.08-.09-24.83-11.12-63-2.68s-15.89 3.82-68.23-2.9c-46-5.91-58.46 3.82-90.33 4.34-39.65.65-53.25-15.1-96.44-5.51-48.57 10.78-39.7 13.33-67.9 7.1M1371.66 2023.38c-2.08-.09-24.83-11.12-63-2.68s-23.91 10.71-68.23-2.9-58.46 3.82-90.33 4.34c-39.65.65-42.08-25.87-85.27-16.28-48.57 10.79-50.87 24.1-79.07 17.87" opacity=".58" />
               <path fill="#677691" d="M766.05 2022.63c-2.08-.09-24.83-11.11-63-2.68s-23.91 10.71-68.23-2.9-58.46 3.82-90.33 4.34-36.7-27.06-85.27-16.27-50.87 24.09-79.07 17.86M1950 2012.63c-2.08-.09-24.83-11.11-63-2.68s-23.91 10.71-68.23-2.9-58.46 3.82-90.32 4.34-32.73-10.87-70.07-10.34c-49.74.72-66.08 18.16-94.27 11.93" opacity=".36" />
             </g>
-            <g className="birds"  fill="#8793b2"> 
+            <g className={styles.birds}  fill="#8793b2"> 
               <path d="M1749.65 96.55s50.44 4.14 71 27.64c0 0 10.91-7.6 38.74-.69 0 0-40.28 4-44.14 17.85.02 0-20.38-35.13-65.6-44.8z"/>
               <path d="M700.08 287.63s-42.06-2-61.55 15.23c0 0-8.2-7.43-31.9-4.7 0 0 32.81 7.63 34.52 19.44 0 0 20.59-26.81 58.93-29.97zM436.76 201.67s-14.85-.67-21.76 5.38c0 0-2.89-2.63-11.25-1.66 0 0 11.58 2.69 12.18 6.86a30.89 30.89 0 0120.83-10.58z" opacity=".46" />
               <path d="M1508.5 0s19.32 1.59 27.21 10.59c0 0 4.18-2.91 14.84-.27 0 0-15.44 1.55-16.91 6.85A40.32 40.32 0 001508.5 0z" opacity=".47" />
               <path d="M1674.07 401.84s19.16 3 28.93-3.94c0 0 3.38 3.8 14.36 3.72 0 0-14.64-5.11-14.84-10.6a40.29 40.29 0 01-28.45 10.82z" opacity=".35" />
             </g>
-            <g className="waves" fill="#fff">
+            <g className={styles.waves} fill="#fff">
               <path d="M1537.25 1346.94h316.93s-9.19-11.6-33.22-9.19-9.65 2.67-44.89-1.59-26.69 14.88-63 7.38-40.46.11-92-4.78c-33.9-3.22-83.82 8.18-83.82 8.18z"/>
               <path d="M1355.66 1265.8h316.94s-6.25-6.73-30.29-4-12.59-3.21-47.82-7.94-26.7 16.55-63 8.2-35.77-13.49-68.34-8.9c-33.84 4.72-107.49 12.64-107.49 12.64z" opacity=".35" />
               <path d="M460.6 1388.4h316.94s-9.19-12.91-33.23-10.23-9.65 3-44.88-1.76-26.7 16.55-63 8.2-31.79-7.15-64.36-2.56c-33.84 4.77-111.47 6.35-111.47 6.35zM956.73 1652h557.4s-16.16-33.08-58.43-26.2-17 7.6-78.94-4.52-47 42.41-110.82 21-55.92-18.32-113.19-6.55C1093.25 1648 956.73 1652 956.73 1652z"/>
@@ -81,7 +82,7 @@ const IndexPage = () => (
               <path d="M289.29 1206.09h316.93s-9.19-10.06-33.22-8-9.65 2.31-44.89-1.37-26.69 12.89-63 6.39-31.79-5.57-64.36-2c-33.83 3.75-111.46 4.98-111.46 4.98zM1885.12 1244.05h316.94s5.15 0-25.07-3c-24-2.4-17.81-2.63-53-6.31s-26.7 12.89-63 6.39-31.79-5.57-64.36-2c-33.88 3.69-111.51 4.92-111.51 4.92z" opacity=".66" />
               <path d="M884 1290.56h316.93s-9.29-11.94-33.23-8.77c-22.84 3-.29 9.48-44.88 1.49-34.91-6.26-26.69 11.19-63 4s-31.8-6.13-64.36-2.19c-33.86 4.12-111.46 5.47-111.46 5.47z" opacity=".44" />
             </g>
-            <g className="mountains" fill="#677691">
+            <g className={styles.mountains} fill="#677691">
               <path d="M2012.69 1126.66s43.41-57.82 91.6-23.55 93.16 52.94 93.16 52.94l-171.3 3.08zM1010.81 1135.07l-886.48-.36c8.57-5.38 136.87 22.27 171.14-73.38 45.07-125.79 105-209.43 165.13-143.92 90.12 98.23 106.23 210.44 155.54 147s112.36-26.38 137.1 0c0 0 66.11 70.66 257.57 70.66"/>
               <path d="M1652.64 1035c97.6-90.82 151.89-75.42 219.81 2.55 69.53 79.82 162.57 100.24 171.14 105.62l-800.59.35-37.49-18.35s124.51-69 203.58-87.68c0 0 53.6-19.59 124.21 15.46s119.34-17.95 119.34-17.95z"/>
               <path d="M2235.2 1133.7l.42-28.39c-32-6.81-77.87-52-77.87-52-77.36-65.85-139.2-78.85-250.36-2.15-7.08 4.88-13.36 9.26-19 13.17v69.34zM85.6 1134.07h1165.89S1078.71 1005 906 1076.39c-80.68 33.35-135.24-.9-223.79 15.87-70.43 13.33-116.76-22.33-266.48-3.35 0 0-107.48-106.83-199.19-86.07-45.85 10.38-75.46 39.19-92.19 62.2s-38.73 32.35-38.73 32.35z" opacity=".55" />
@@ -95,7 +96,7 @@ const IndexPage = () => (
             <path fill="#fff" d="M1475.83 2009.3l-4.42 5a2.31 2.31 0 00.21 3.26 2 2 0 00.23.18l4.25 2.88a2.3 2.3 0 003.2-.6c1.67-2.58 3.77-7.33-.26-10.93a2.29 2.29 0 00-3.21.21z" opacity=".33" />
             <path fill="#fff" d="M544.14 1908.51l-2.29.91a.84.84 0 00-.48 1.1.37.37 0 000 .11l.91 1.65a.86.86 0 001.17.34c1-.58 2.47-1.79 1.75-3.65a.86.86 0 00-1.06-.46z"/>
             <path fill="#fff" d="M513.75 1925.72l-3.83-6.19a2.5 2.5 0 00-3.45-.82 1.85 1.85 0 00-.27.19l-4.34 3.51a2.5 2.5 0 00-.39 3.51c2.16 2.56 6.45 6.26 11.47 3.2a2.5 2.5 0 00.81-3.4z" opacity=".39" />
-            <g className="couple">
+            <g className={styles.couple}>
               <ellipse cx="936.05" cy="1829.31" fill="#4d4d66" opacity=".27" rx="254.63" ry="11.96" />
               <path fill="#a6a6bc" d="M1062.57 860.39c-6-2.74-9.67-8.27-11.9-13.65l14.5 3.35c-11.46-2.64-16-14.55-17.82-22.12-3.28-45.24-10.74-129.75-22.46-162.9-15.92-45-62.78-47.24-65.27-47.33h-.11c-2.49.09-49.35 2.3-65.27 47.33-11.74 33.16-19.19 117.72-22.48 162.93-1.79 7.57-6.37 19.43-17.81 22.07l14.44-3.33c-2.67 6.33-7.34 12.84-15.44 14.71l16.87-3.86 88.9-32.55h1.68l88.9 32.55z"/>
               <path fill="#fff" d="M865.71 1153.87l32.55-151.72-32.55-142.35 78.26-35 21.71 36.73 24.81-32.27 71.43 30.48-31 138 34.7 180.84s57.89 305.19 67.17 356.54 93 272.37 93 272.37-234.41 77-528 0l93.77-270.14z"/>
@@ -162,7 +163,7 @@ const IndexPage = () => (
                 <path fill="#4d4d66" d="M1128.4 980.71c3.85 2.69 112 147.93 112 147.93l-40.19 22.49s-130.35-126.27-105.59-148.74c22.63-20.56 33.78-21.68 33.78-21.68z"/>
               </g>
             </g>
-            <g className="leafs-left">
+            <g className={styles.leafsLeft}>
               <g fill="#bdbdd1">
                 <path d="M347.69 1825.88S-22.55 1696.83 85.88 1630s243.3 116.86 243.3 116.86-261.81-331.53-169.25-360.71S347.69 1543.44 347.69 1630c0 0 34.38-167 105.78-144.67s-34.38 241.1-34.38 241.1 174.54-188.73 243.3-144.24-171.9 199.55-314.7 243.69z"/>
                 <path d="M352.21 1469.17c-2.1-10.48-79.42-111.72-17.15-133 54.16-18.51 29.61 87.13 29.61 87.13zM148.17 1578.12s2.43-29.22-17.63-34.16-17.09 11.87-17.09 11.87-.15 15.27 34.72 22.29zM435.29 1814.05c15-4.09 192.21-60 229-38.17s16.36 64.07-58.62 69.53S359 1843 359 1843zM285.43 1822.4c-7.5-2.05-96.11-30-114.51-19.09s-8.18 32 29.31 34.77 123.37-2.73 123.37-2.73z"/>
@@ -174,7 +175,7 @@ const IndexPage = () => (
                 <path fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="5" d="M539.2 1860.48l-118.93-341.12M447.76 1710.22l42.59 7.81M460.61 1635.05l16.75-48.4"/>
               </g>
             </g>
-            <g className="leafs-right">
+            <g className={styles.leafsRight}>
               <path fill="#e0e0e9" d="M2125.49 1747.15s120 1.4 102.46-107.63-.06-115.69 37.29-134c0 0-114.92-2.06-178.86 56.81s-79.59 177.79 39.11 184.82z"/>
               <path fill="#bdbdd1" d="M2271.64 1490s51.44-7 36.22-59.3c0 0-20.57 30.81-70.08 44.85 0 0-42.41 16.08-51.69 28.09 0-.03 36.36-9.14 85.55-13.64z"/>
               <path fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="5" d="M2030.13 1855.13l149.89-299.39M2169.59 1661.35l-47.86 7.43"/>
@@ -193,34 +194,33 @@ const IndexPage = () => (
             </g>
           </svg>
         </div>
-        <div className="MainCall">
+        <div className={styles.MainCall}>
           <h1>María y Víctor</h1>
           <p>Queremos que seais parte de nuestra historia y para ello necesitamos vuestra confirmación</p>
-          <a target="_blank" href="https://google.com"><button className="boton">CONFIRMAR</button></a>
+          <a target="_blank" href="https://google.com"><button className={styles.boton}>CONFIRMAR</button></a>
         </div>
       </div>
-      <div className="break1">
-        <div className="b1-leaves">
+      <div className={styles.break1}>
+        <div className={styles.b1Leaves}>
           <img src={require('../images/break1.png')} width="100%"/>
         </div>
-        <span className=""></span>
       </div>
-      <div className="LeafRight">
+      <div className={styles.LeafRight}>
         <img src={require('../images/leaf-right.png')} width="100%"/>
       </div>
-      <div className="History">
-        <p className="highlight">“¿Qué mejor momento para celebrar una boda que el apocalipsis zombie?” Esto podría haberlo dicho Meri perfectamente y hubiera sido divertido… de no ser verdad. Bueno, a ver… que no se acaba el mundo… (de momento), pero sí, ¡NOS CASAMOS!.</p>
+      <div className={styles.History}>
+        <p className={styles.highlight}>“¿Qué mejor momento para celebrar una boda que el apocalipsis zombie?” Esto podría haberlo dicho Meri perfectamente y hubiera sido divertido… de no ser verdad. Bueno, a ver… que no se acaba el mundo… (de momento), pero sí, ¡NOS CASAMOS!.</p>
         <br/>
         <br/>
         <h2>Un poco de chapa sobre nosotros y lo que ocurrió</h2>
-        <span className="underline"></span>
+        <span className={styles.underline}></span>
         
-        <div className="tile">
-          <div className="text">
+        <div className={styles.tile}>
+          <div className={styles.text}>
             <p>A veces crees que lo que buscas está lejos, en ocasiones demasiado, pero en este caso no podíamos imaginar lo cerca que estaba, tanto que, de Carabanchel a Aluche, donde nos criamos, solo había un pequeño paseo.</p>
             <p>Hace unos dos años y medio nuestros caminos se cruzaron y el amor por los animales, la naturaleza y la pasión loca por conocer mundo terminó de unirnos. Desde ese momento empezamos a construir una vida juntos llenándola de todas esas pasiones y algunas más, que hemos ido descubriendo juntos.</p>
           </div>
-          <div className="right map">
+          <div className={styles.rightMap}>
             <img src={require('../images/camino.png')} width="100%"/>
           </div>
         </div>
@@ -229,28 +229,28 @@ const IndexPage = () => (
         
         <p>Hemos vivido muchísimas aventuras: hemos nadado con tiburones, nos hemos quedado sin donde dormir en el culo del mundo, hemos sigo acorralados por monos, alguno ha sido mordido por un équido, pero sobre todo hemos disfrutado, mucho, y hemos construido una preciosa familia humano-felina. Y por eso, ha llegado el momento de dar un paso más. </p>
         <p>De Málaga a Valencia, de Denia a Kenia, de Vietnam al Mar Rojo, pasando por Lisboa, Amsterdam… parecía que Victor no había encontrado el lugar indicado para la pedida hasta que lo vio claro: La Malvarrosa. Sí, amigos, la pedida se hizo un soleado día invierno, tirado en una toalla y ataviado con un bañador de limones. El éxito estaba asegurado.</p>
-        <img className="our-trip"src={require('../images/OurTrip.png')} width="100%"/>
-        <img className="our-trip-sm"src={require('../images/OurTripSmall.png')} width="100%"/>
+        <img className={styles.ourTrip} src={require('../images/OurTrip.png')} width="100%"/>
+        <img className={styles.ourTripSm} src={require('../images/OurTripSmall.png')} width="100%"/>
         <br/>
         <br/>
         <br/>
         <br/>
         
         <h2>Ahora te toca a ti</h2>
-        <span className="underline"></span>
+        <span className={styles.underline}></span>
 
         <br/>
         <br/>
 
-        <div className="tile">
-          <div className="calendario">
+        <div className={styles.tile}>
+          <div className={styles.calendario}>
             <img src={require('../images/calendario.png')} width="100%"/>
             <br/>
             <br/>
-            <a target="_blank" href="https://google.com"><button className="boton">CONFIRMAR</button></a>
+            <a target="_blank" href="https://google.com"><button className={styles.boton}>CONFIRMAR</button></a>
           </div>
           <div class="right">
-            <p className="highlight correct-margin">Queremos que nos acompañes en nuestro gran día porque sin ti no sería lo mismo. Y lo decimos de verdad, así que no te olvides de confirmárnoslo y no pierdas los detalles a continuación:</p>
+            <p className={styles.highlight && styles.correctMargin}>Queremos que nos acompañes en nuestro gran día porque sin ti no sería lo mismo. Y lo decimos de verdad, así que no te olvides de confirmárnoslo y no pierdas los detalles a continuación:</p>
             <br/>
             <br/>
             <div>
@@ -263,9 +263,9 @@ const IndexPage = () => (
             <div>
               <img src={require('../images/bus.png')} height="50px"/>
               {/* <svg width="auto" height="50" viewBox="0 0 478 158" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path className="bus" d="M98.3314 117.326C109.297 117.326 118.188 126.212 118.188 137.183C118.188 148.143 109.297 157.04 98.3314 157.04C87.3608 157.04 78.4694 148.145 78.4694 137.183C78.4711 126.212 87.3625 117.326 98.3314 117.326Z" fill="#BDBDD1"/>
-                <path className="bus" d="M371.773 117.326C382.742 117.326 391.63 126.212 391.63 137.183C391.63 148.143 382.743 157.04 371.773 157.04C360.802 157.04 351.909 148.145 351.909 137.183C351.907 126.212 360.8 117.326 371.773 117.326Z" fill="#BDBDD1"/>
-                <path className="bus" d="M0.96582 70.6776C0.96582 73.4517 3.2072 75.6845 5.96927 75.6845C8.73134 75.6845 10.9727 73.4517 10.9727 70.6776V55.1362C10.9727 49.4017 15.7882 43.9724 21.471 43.2724L27.2175 42.5896C25.5762 45.7069 24.4193 49.0155 23.9089 52.3603L13.8675 118.812C11.8055 132.46 21.3348 140.786 35.1503 140.629H73.4796C73.2917 139.384 73.09 138.159 73.09 136.864C73.09 123.047 84.2968 111.841 98.1124 111.841C111.936 111.841 123.135 123.047 123.135 136.864C123.135 138.15 122.947 139.384 122.759 140.629H347.424C347.242 139.384 347.057 138.159 347.057 136.864C347.057 123.047 358.245 111.841 372.08 111.841C385.895 111.841 397.102 123.047 397.102 136.864C397.102 138.15 396.902 139.384 396.716 140.629H452.136C465.962 140.453 477.159 126.507 477.159 112.691V25.1138C477.159 11.2983 465.962 0.406885 452.155 0.756885L155.249 8.62069C141.433 8.97069 119.218 11.2466 105.619 13.6828L52.2917 23.2069C46.5003 24.2414 40.9141 27.2862 36.2089 31.4017L20.2882 33.3465C9.46754 34.669 0.991683 44.2362 0.991683 55.1379V70.6793H0.96582V70.6776ZM159.412 34.3017C159.412 28.7759 163.895 24.1707 169.416 24.031L440.457 17.0448C445.973 16.9034 450.455 21.2638 450.455 26.7879V70.1517C450.455 75.6759 445.973 80.1586 440.457 80.1586H169.414C163.893 80.1586 159.411 75.6759 159.411 70.1517V34.3017H159.412ZM39.1693 49.9017C39.9572 44.4293 44.5744 37.9155 49.6934 35.85C80.2572 23.5052 117.704 22.9966 135.266 23.5931C140.79 23.7845 145.255 28.6362 145.255 34.1517V67.5189C145.255 73.0431 140.773 77.5258 135.249 77.5258H125.873C120.349 77.5258 111.619 78.9448 106.383 80.6965L40.6227 102.707C35.3779 104.45 31.771 101.438 32.5589 95.9827L39.1693 49.9017Z" fill="#BDBDD1"/>
+                <path className={styles.bus} d="M98.3314 117.326C109.297 117.326 118.188 126.212 118.188 137.183C118.188 148.143 109.297 157.04 98.3314 157.04C87.3608 157.04 78.4694 148.145 78.4694 137.183C78.4711 126.212 87.3625 117.326 98.3314 117.326Z" fill="#BDBDD1"/>
+                <path className={styles.bus} d="M371.773 117.326C382.742 117.326 391.63 126.212 391.63 137.183C391.63 148.143 382.743 157.04 371.773 157.04C360.802 157.04 351.909 148.145 351.909 137.183C351.907 126.212 360.8 117.326 371.773 117.326Z" fill="#BDBDD1"/>
+                <path className={styles.bus} d="M0.96582 70.6776C0.96582 73.4517 3.2072 75.6845 5.96927 75.6845C8.73134 75.6845 10.9727 73.4517 10.9727 70.6776V55.1362C10.9727 49.4017 15.7882 43.9724 21.471 43.2724L27.2175 42.5896C25.5762 45.7069 24.4193 49.0155 23.9089 52.3603L13.8675 118.812C11.8055 132.46 21.3348 140.786 35.1503 140.629H73.4796C73.2917 139.384 73.09 138.159 73.09 136.864C73.09 123.047 84.2968 111.841 98.1124 111.841C111.936 111.841 123.135 123.047 123.135 136.864C123.135 138.15 122.947 139.384 122.759 140.629H347.424C347.242 139.384 347.057 138.159 347.057 136.864C347.057 123.047 358.245 111.841 372.08 111.841C385.895 111.841 397.102 123.047 397.102 136.864C397.102 138.15 396.902 139.384 396.716 140.629H452.136C465.962 140.453 477.159 126.507 477.159 112.691V25.1138C477.159 11.2983 465.962 0.406885 452.155 0.756885L155.249 8.62069C141.433 8.97069 119.218 11.2466 105.619 13.6828L52.2917 23.2069C46.5003 24.2414 40.9141 27.2862 36.2089 31.4017L20.2882 33.3465C9.46754 34.669 0.991683 44.2362 0.991683 55.1379V70.6793H0.96582V70.6776ZM159.412 34.3017C159.412 28.7759 163.895 24.1707 169.416 24.031L440.457 17.0448C445.973 16.9034 450.455 21.2638 450.455 26.7879V70.1517C450.455 75.6759 445.973 80.1586 440.457 80.1586H169.414C163.893 80.1586 159.411 75.6759 159.411 70.1517V34.3017H159.412ZM39.1693 49.9017C39.9572 44.4293 44.5744 37.9155 49.6934 35.85C80.2572 23.5052 117.704 22.9966 135.266 23.5931C140.79 23.7845 145.255 28.6362 145.255 34.1517V67.5189C145.255 73.0431 140.773 77.5258 135.249 77.5258H125.873C120.349 77.5258 111.619 78.9448 106.383 80.6965L40.6227 102.707C35.3779 104.45 31.771 101.438 32.5589 95.9827L39.1693 49.9017Z" fill="#BDBDD1"/>
               </svg> */}
               <p>Si no puedes o no te apetece coger el coche para llegar, no te preocupes. Queremos que disfrutes y te despreocupes al máximo ese día. Así que un <strong>autobús saldrá de la estación de Aluche a las 17:00</strong> para llevarte al bodorriorrr y luego traerte de vuelta. </p>
               <a target="_blank" href="https://g.page/laquintadeillescas?share">Cómo ir en coche</a>
@@ -291,43 +291,42 @@ const IndexPage = () => (
 
 
       </div>
-      <div className="break2">
-        <span className=""></span>
-        <div className="b2-leaves">
+      <div className={styles.break2}>
+        <div className={styles.b2Leaves}>
           <img src={require('../images/break2.png')} width="100%"/>
         </div>
       </div>
-      <div className="LeafLeft">
+      <div className={styles.LeafLeft}>
         <img src={require('../images/leaf-left.png')} width="100%"/>
       </div>
 
-      <div className="Place">
+      <div className={styles.Place}>
         <h2>En resumen</h2>
-        <span className="underline"></span>
+        <span className={styles.underline}></span>
         <br/>
 
-        <div className="tile">
-          <div className="sixth">
+        <div className={styles.tile}>
+          <div className={styles.sixth}>
             <strong>What</strong>
             <p>¡Nos casamos!</p>
           </div>
-          <div className="sixth">
+          <div className={styles.sixth}>
             <strong>When</strong>
             <p>18 Sept 2020</p>
           </div>
-          <div className="sixth">
+          <div className={styles.sixth}>
             <strong>Who</strong>
             <p>Meri y Vic</p>
           </div>
-          <div className="sixth">
+          <div className={styles.sixth}>
             <strong>Where</strong>
             <p>La Quinta de Illescas</p>
           </div>
-          <div className="sixth">
+          <div className={styles.sixth}>
             <strong>How</strong>
             <p>Con mucho love</p>
           </div>
-          <div className="sixth">
+          <div className={styles.sixth}>
             <strong>Why</strong>
             <p>Why not!</p>
           </div>
