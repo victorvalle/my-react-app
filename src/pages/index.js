@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../layouts/styles.module.scss'
-import { FancyHr, Header } from '../components'
+import { FancyHr, Header, Button } from '../components'
 
 const IndexPage = () => (
 	<div className={styles.wrapper}>
@@ -87,9 +87,7 @@ const IndexPage = () => (
 					/>
 					<br />
 					<br />
-					<a target="_blank" href="https://google.com">
-						<button className={styles.boton}>CONFIRMAR</button>
-					</a>
+					<Button to='/' cta='Confirmar'/>
 				</div>
 				<div class="right">
 					<p className={styles.highlight && styles.correctMargin}>

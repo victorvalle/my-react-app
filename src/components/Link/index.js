@@ -1,4 +1,4 @@
-import Link from 'gatsby-link'
+import { Link as GatsbyLink } from 'gatsby'
 import React from 'react'
 
 // Since DOM elements <a> cannot receive activeClassName,

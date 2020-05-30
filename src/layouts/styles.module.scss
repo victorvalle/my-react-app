@@ -164,27 +164,18 @@ h2 {
 
 @media (max-width: 410px) {
 	.wrapper {
-		width: 96%;
-		margin: 0 auto;
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 
 	.History {
 		margin: 0px 16px 0px 16px;
-		padding-top: 75px;
 		padding-bottom: 50px;
-	}
-
-	.History p {
-		column-count: 1;
 	}
 
 	.Place {
 		margin: 0px 60px 50px 16px;
 		padding-top: 75px;
-		padding-bottom: 50px;
-		line-height: normal;
 	}
 
 	.tile {
@@ -199,10 +190,6 @@ h2 {
 		width: 90%;
 		margin: 0 auto;
 		padding: 40px 0px 0px 0px;
-	}
-
-	.sixth {
-		max-width: 100%;
 	}
 
 	.calendario {

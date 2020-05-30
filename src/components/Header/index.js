@@ -1,4 +1,4 @@
-import { Illustration } from '../../components'
+import { Button, Illustration } from '../../components'
 import React from 'react'
 import styles from './styles.module.scss'
 
@@ -12,9 +12,7 @@ const Header = ({ props }) => {
 					Queremos que seais parte de nuestra historia y para ello
 					necesitamos vuestra confirmación
 				</p>
-				<a target="_blank" href="https://google.com">
-					<button className={styles.boton}>CONFIRMAR</button>
-				</a>
+				<Button to='#' cta='Confirmar' />
 			</div>
 		</div>
 	)
