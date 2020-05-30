@@ -1,340 +1,329 @@
 @import url('https://fonts.googleapis.com/css?family=Jost');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-
 body {
-  font-family: Montserrat, -apple-system, 'Helvetica Neue', sans-serif;
-  margin: 0;
-  font-size: 16px;
-  background-color: #F2F4F7;
-  color: #5E6F96;
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
+	font-family: Montserrat, -apple-system, 'Helvetica Neue', sans-serif;
+	margin: 0;
+	font-size: 16px;
+	background-color: #f2f4f7;
+	color: #5e6f96;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.5;
 }
 
 p {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 a {
-  color: #5E6F96;
-  text-decoration: none;
-  font-weight: 600;
+	color: #5e6f96;
+	text-decoration: none;
+	font-weight: 600;
 }
 a:hover {
-  color: #4D4D66;
+	color: #4d4d66;
 }
 
-.Hero {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* background: url('../images/wallpaper3.jpg'); */
-  background-color: white;
-  height: auto;
-  background-size: cover;
-  background-position: center;
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/* background: url('../images/wallpaper3.jpg'); */
+	background-color: white;
+	height: auto;
+	background-size: cover;
+	background-position: center;
 }
 
-p {color: black}
+p {
+	color: black;
+}
 
 .highlight {
-  font-size: 19px;
-  color: #5E6F96;
+	font-size: 19px;
+	color: #5e6f96;
 }
 
-
 .break1 {
-  margin-left: 50px;
+	margin-left: 50px;
 }
 
 .break1 span {
-  flex: 1;
-  width: 75%;
-  background-color: #d1dbef;
-  height: 1px;
-  display: block;
-  margin-top: -50px;
-  margin-left: 100px;
+	flex: 1;
+	width: 75%;
+	background-color: #d1dbef;
+	height: 1px;
+	display: block;
+	margin-top: -50px;
+	margin-left: 100px;
 }
 
 .b1-leaves {
-  width: 82px;
+	width: 82px;
 }
 
-
 .History {
-  margin: 0px 250px 50px 150px;
-  padding-top: 75px;
-  padding-bottom: 50px;
+	margin: 0px 250px 50px 150px;
+	padding-top: 75px;
+	padding-bottom: 50px;
 }
 
 .History p {
-  /* column-count: 2;
+	/* column-count: 2;
   column-gap: 150px; */
-  z-index: 2;
+	z-index: 2;
 }
 
-
 h2 {
-  font-size: 26px;
-  font-family: Jost;
-  font-weight: 500;
-  margin-bottom: 30px;  
+	font-size: 26px;
+	font-family: Jost;
+	font-weight: 500;
+	margin-bottom: 30px;
 }
 
 .underline {
-  width: 30px;
-  background-color: #EB493D;
-  position: absolute;
-  height: 2px;
-  display: block;
-  margin-top: -24px;
+	width: 30px;
+	background-color: #eb493d;
+	position: absolute;
+	height: 2px;
+	display: block;
+	margin-top: -24px;
 }
 
-
 .break2 {
-  margin-left: 100px;
-  /* display: flex; */
+	margin-left: 100px;
+	/* display: flex; */
 }
 
 .break2 span {
-  width: 65%;
-  background-color: #d1dbef;
-  height: 1px;
-  display: block;
-  position: absolute;
-  margin-top: 60px;
-  margin-left: 50px;
+	width: 65%;
+	background-color: #d1dbef;
+	height: 1px;
+	display: block;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 50px;
 }
 
 .b2-leaves {
-  width: 126px;
-  margin-right: 250px;
-  margin-left: auto;
-  position: relative;
+	width: 126px;
+	margin-right: 250px;
+	margin-left: auto;
+	position: relative;
 }
 
 .Place {
-  margin: 0px 250px 50px 150px;
-  /* padding-top: 75px; */
-  padding-bottom: 50px;
-  line-height: normal;
+	margin: 0px 250px 50px 150px;
+	/* padding-top: 75px; */
+	padding-bottom: 50px;
+	line-height: normal;
 }
 
-
 .LeafLeft {
-  width: 190px;
-  position: absolute;
-  margin-top: -190px;
-  z-index: 1;
+	width: 190px;
+	position: absolute;
+	margin-top: -190px;
+	z-index: 1;
 }
 
 .LeafRight {
-  float: right;
-  width: 160px;
-  margin-top: -160px;
+	float: right;
+	width: 160px;
+	margin-top: -160px;
 }
 
 .bold {
-  font-weight: 600;
+	font-weight: 600;
 }
 
 .tile {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .left {
-  display: flex;
+	display: flex;
 }
 
 .right {
-  flex: 1;
+	flex: 1;
 }
 
 .text {
-  width: 60%;
+	width: 60%;
 }
 
 .map {
-  padding-top: 24px;
-  padding-left: 24px;
-  max-width: 250px;
+	padding-top: 24px;
+	padding-left: 24px;
+	max-width: 250px;
 }
 
 .sixth {
-  max-width: 15%;
+	max-width: 15%;
 }
 
 .calendario {
-  width: 142px;
-  height: auto;
-  margin-right: 200px;
-  padding-bottom: 40px;
+	width: 142px;
+	height: auto;
+	margin-right: 200px;
+	padding-bottom: 40px;
 }
 
 .our-trip-sm {
-  display: none;
+	display: none;
 }
 
 .correct-margin {
-  margin-top: 0;
+	margin-top: 0;
 }
-
-
 
 @media (max-width: 800px) {
+	.wrapper {
+		width: 96%;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 
-  .Hero {
-    width: 96%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+	.History {
+		margin: 0px 50px 50px 50px;
+		padding-top: 75px;
+		padding-bottom: 0px;
+	}
 
-  .History {
-    margin: 0px 50px 50px 50px;
-    padding-top: 75px;
-    padding-bottom: 0px;
-  }
+	.History p {
+		column-count: 1;
+	}
 
-  .History p {
-    column-count: 1;
-  }
+	.break1 {
+		margin-left: 20px;
+		margin-top: 50px;
+	}
 
-  .break1 {
-    margin-left: 20px;
-    margin-top: 50px;
-  }
+	.break1 span {
+		width: 65%;
+		margin-left: 75px;
+	}
 
-  .break1 span {
-    width: 65%;
-    margin-left: 75px;
-  }
+	.b1-leaves {
+		width: 70px;
+	}
 
-  .b1-leaves {
-    width: 70px;
-  }
+	.break2 {
+		margin-left: 100px;
+	}
 
-  .break2 {
-    margin-left: 100px;
-  }
+	.break2 span {
+		width: 70%;
+		margin-top: 30px;
+	}
 
-  .break2 span {
-    width: 70%;
-    margin-top: 30px;
-  }
-  
-  .b2-leaves {
-    width: 70px;
-    margin-right: 100px;
-  }
+	.b2-leaves {
+		width: 70px;
+		margin-right: 100px;
+	}
 
-  .LeafLeft {
-    width: 100px;
-    margin-top: -120px;
-  }
-  
-  .LeafRight {
-    width: 100px;
-    margin-top: -85px;
-  }
+	.LeafLeft {
+		width: 100px;
+		margin-top: -120px;
+	}
 
-  .Place {
-    margin: 0px 50px 50px 50px;
-    padding-bottom: 50px;
-    line-height: normal;
-  }
+	.LeafRight {
+		width: 100px;
+		margin-top: -85px;
+	}
 
-  .sixth {
-    max-width: 100%;
-  }
+	.Place {
+		margin: 0px 50px 50px 50px;
+		padding-bottom: 50px;
+		line-height: normal;
+	}
 
-  .calendario {
-    width: 142px;
-    height: auto;
-    margin-right: 100px;
-    padding-bottom: 40px;
-  }
+	.sixth {
+		max-width: 100%;
+	}
 
+	.calendario {
+		width: 142px;
+		height: auto;
+		margin-right: 100px;
+		padding-bottom: 40px;
+	}
 }
 
-
 @media (max-width: 410px) {
+	.wrapper {
+		width: 96%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 
-  .Hero {
-    width: 96%;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+	.History {
+		margin: 0px 16px 0px 16px;
+		padding-top: 75px;
+		padding-bottom: 50px;
+	}
 
-  .History {
-    margin: 0px 16px 0px 16px;
-    padding-top: 75px;
-    padding-bottom: 50px;
-  }
+	.History p {
+		column-count: 1;
+	}
 
-  .History p {
-    column-count: 1;
-  }
+	.break1 {
+		display: none;
+	}
+	.break2 {
+		display: none;
+	}
 
-  .break1 {
-    display: none;
-  }
-  .break2 {
-    display: none;
-  }
+	.LeafLeft {
+		width: 100px;
+		opacity: 0.5;
+	}
 
-  .LeafLeft {
-    width: 100px;
-    opacity: 0.5;
-  }
-  
-  .LeafRight {
-    width: 50px;
-    margin-top: 40px;
-  }
+	.LeafRight {
+		width: 50px;
+		margin-top: 40px;
+	}
 
-  .Place {
-    margin: 0px 60px 50px 16px;
-    padding-top: 75px;
-    padding-bottom: 50px;
-    line-height: normal;
-  }
+	.Place {
+		margin: 0px 60px 50px 16px;
+		padding-top: 75px;
+		padding-bottom: 50px;
+		line-height: normal;
+	}
 
-  .tile {
-    display: block;
-  }
+	.tile {
+		display: block;
+	}
 
-  .text {
-    width: 100%;
-  }
+	.text {
+		width: 100%;
+	}
 
-  .map {
-    width: 90%;
-    margin: 0 auto;
-    padding: 40px 0px 0px 0px;
-  }
+	.map {
+		width: 90%;
+		margin: 0 auto;
+		padding: 40px 0px 0px 0px;
+	}
 
-  .sixth {
-    max-width: 100%;
-  }
+	.sixth {
+		max-width: 100%;
+	}
 
-  .calendario {
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .our-trip {
-    display: none;
-  }
+	.calendario {
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+	}
 
-  .our-trip-sm {
-    display: block;
-  }
+	.our-trip {
+		display: none;
+	}
 
+	.our-trip-sm {
+		display: block;
+	}
 }
