@@ -16,7 +16,6 @@ const IndexPage = () => (
 			<br />
 			<br />
 			<h2>Un poco de chapa sobre nosotros y lo que ocurrió</h2>
-			<span className={styles.underline}></span>
 
 			<div className={styles.tile}>
 				<div className={styles.text}>
@@ -35,7 +34,7 @@ const IndexPage = () => (
 						descubriendo juntos.
 					</p>
 				</div>
-				<div className={styles.right && styles.map}>
+				<div className={`${styles.right} ${styles.map}`}>
 					<img src={require('../images/camino.png')} width="100%" />
 				</div>
 			</div>
@@ -74,7 +73,6 @@ const IndexPage = () => (
 			<br />
 
 			<h2>Ahora te toca a ti</h2>
-			<span className={styles.underline}></span>
 
 			<br />
 			<br />
@@ -90,7 +88,7 @@ const IndexPage = () => (
 					<Button to='/' cta='Confirmar'/>
 				</div>
 				<div class="right">
-					<p className={styles.highlight && styles.correctMargin}>
+					<p className={`${styles.highlight} ${styles.correctMargin}`}>
 						Queremos que nos acompañes en nuestro gran día porque
 						sin ti no sería lo mismo. Y lo decimos de verdad, así
 						que no te olvides de confirmárnoslo y no pierdas los
@@ -179,7 +177,6 @@ const IndexPage = () => (
 		<FancyHr />
 		<div className={styles.Place}>
 			<h2>En resumen</h2>
-			<span className={styles.underline}></span>
 			<br />
 
 			<div className={styles.tile}>

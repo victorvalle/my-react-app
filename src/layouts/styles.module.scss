@@ -62,15 +62,15 @@ h2 {
 	font-family: Jost;
 	font-weight: 500;
 	margin-bottom: 30px;
-}
-
-.underline {
-	width: 30px;
-	background-color: #eb493d;
-	position: absolute;
-	height: 2px;
-	display: block;
-	margin-top: -24px;
+	&::after {
+		content: '';
+		width: 30px;
+		background-color: #eb493d;
+		position: absolute;
+		height: 2px;
+		display: block;
+		margin-top: 0.25em;
+	}
 }
 
 .Place {
