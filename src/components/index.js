@@ -1,4 +1,5 @@
 import Header from './Header'
+import FancyHr from './FancyHr'
 import Illustration from './Illustration'
 
-export { Header, Illustration }
+export { FancyHr, Header, Illustration }

@@ -1,19 +1,11 @@
 import React from 'react'
 import styles from '../layouts/styles.module.scss'
-import { Header } from '../components'
+import { FancyHr, Header } from '../components'
 
 const IndexPage = () => (
 	<div className={styles.wrapper}>
 		<Header />
-		<div className={styles.break1}>
-			<div className={styles.b1Leaves}>
-				<img src={require('../images/break1.png')} width="100%" />
-			</div>
-			<span />
-		</div>
-		<div className={styles.LeafRight}>
-			<img src={require('../images/leaf-right.png')} width="100%" />
-		</div>
+		<FancyHr top />
 		<div className={styles.History}>
 			<p className={styles.highlight}>
 				“¿Qué mejor momento para celebrar una boda que el apocalipsis
@@ -192,16 +184,7 @@ const IndexPage = () => (
 				</div>
 			</div>
 		</div>
-		<div className={styles.break2}>
-			<span />
-			<div className={styles.b2Leaves}>
-				<img src={require('../images/break2.png')} width="100%" />
-			</div>
-		</div>
-		<div className={styles.LeafLeft}>
-			<img src={require('../images/leaf-left.png')} width="100%" />
-		</div>
-
+		<FancyHr />
 		<div className={styles.Place}>
 			<h2>En resumen</h2>
 			<span className={styles.underline}></span>
