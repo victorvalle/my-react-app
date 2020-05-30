@@ -13,15 +13,16 @@ body {
 
 p {
 	font-size: 16px;
+	color: black;
 }
 
 a {
 	color: #5e6f96;
 	text-decoration: none;
 	font-weight: 600;
-}
-a:hover {
-	color: #4d4d66;
+	&:hover {
+		color: #4d4d66;
+	}
 }
 
 .wrapper {
@@ -36,16 +37,12 @@ a:hover {
 	background-position: center;
 }
 
-p {
-	color: black;
-}
-
 .highlight {
 	font-size: 19px;
 	color: #5e6f96;
 }
 
-.History {
+section {
 	margin: 0px 250px 50px 150px;
 	padding-top: 75px;
 	padding-bottom: 50px;
@@ -70,13 +67,6 @@ h2 {
 		display: block;
 		margin-top: 0.25em;
 	}
-}
-
-.Place {
-	margin: 0px 250px 50px 150px;
-	/* padding-top: 75px; */
-	padding-bottom: 50px;
-	line-height: normal;
 }
 
 .bold {
@@ -111,6 +101,9 @@ h2 {
 }
 
 .calendario {
+	position: sticky;
+	align-self: flex-start;
+	top: 40px;
 	width: 142px;
 	height: auto;
 	margin-right: 200px;
@@ -133,7 +126,7 @@ h2 {
 		margin-bottom: 20px;
 	}
 
-	.History {
+	section {
 		margin: 0px 50px 50px 50px;
 		padding-top: 75px;
 		padding-bottom: 0px;
@@ -141,12 +134,6 @@ h2 {
 
 	.History p {
 		column-count: 1;
-	}
-
-	.Place {
-		margin: 0px 50px 50px 50px;
-		padding-bottom: 50px;
-		line-height: normal;
 	}
 
 	.sixth {
@@ -167,14 +154,9 @@ h2 {
 		margin-bottom: 10px;
 	}
 
-	.History {
+	section {
 		margin: 0px 16px 0px 16px;
 		padding-bottom: 50px;
-	}
-
-	.Place {
-		margin: 0px 60px 50px 16px;
-		padding-top: 75px;
 	}
 
 	.tile {
