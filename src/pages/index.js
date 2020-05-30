@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../layouts/styles.module.scss'
-import { FancyHr, Header, Button } from '../components'
+import { FancyHr, Header, Button, Link } from '../components'
 
 const IndexPage = () => (
 	<div className={styles.wrapper}>
@@ -105,12 +105,10 @@ const IndexPage = () => (
 						/>
 						<p>
 							En{' '}
-							<a
-								target="_blank"
-								href="https://laquintadeillescas.com/"
+							<Link to="https://laquintadeillescas.com/"
 							>
 								La Quinta de Illescas
-							</a>
+							</Link>
 						</p>
 						<p>
 							Boda y banquete en el mismo sitio, ¿ves qué fácil?
@@ -137,12 +135,10 @@ const IndexPage = () => (
 							para llevarte al bodorriorrr y luego traerte de
 							vuelta.{' '}
 						</p>
-						<a
-							target="_blank"
-							href="https://g.page/laquintadeillescas?share"
+						<Link to="https://g.page/laquintadeillescas?share"
 						>
 							Cómo ir en coche
-						</a>
+						</Link>
 					</div>
 					<br />
 					<br />
@@ -153,12 +149,10 @@ const IndexPage = () => (
 						/>
 						<p>
 							Ayúndanos a construir la fiesta.{' '}
-							<a
-								target="_blank"
-								href="https://open.spotify.com/playlist/1JDfLjKeSxInOYKG9Pf2Ur?si=90ygiSAySd6j-2EziZCEKQ"
+							<Link to="https://open.spotify.com/playlist/1JDfLjKeSxInOYKG9Pf2Ur?si=90ygiSAySd6j-2EziZCEKQ"
 							>
 								Añade a esta playlist
-							</a>{' '}
+							</Link>{' '}
 							canciones que te gustaría escuchar
 						</p>
 					</div>
