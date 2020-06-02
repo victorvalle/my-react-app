@@ -10,11 +10,11 @@
 	.end {
 		z-index: 1;
 	}
-	@media (max-width: 410px) {
-		hr {
-			display: none;
-		}
-	}
+	// @media (max-width: 410px) {
+	// 	hr {
+	// 		display: none;
+	// 	}
+	// }
 
 	img {
 		height: 100%;
@@ -53,8 +53,15 @@
 		}
 	}
 	@media (max-width: 410px) {
+		.start {
+			display: none;
+		}
 		.end {
 			width: 50px;
+			margin-left: auto;
+		}
+		hr {
+			display: none;
 		}
 	}
 }
@@ -89,9 +96,15 @@
 		}
 	}
 	@media (max-width: 410px) {
+		margin: -80px auto;
 		.start {
-			width: 100px;
-			opacity: 0.5;
+			display: none;
+		}
+		.end {
+			margin-left: auto;
+		}
+		hr {
+			margin-left: 16px;
 		}
 	}
 }
