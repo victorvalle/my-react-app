@@ -138,7 +138,7 @@ const IndexPage = () => (
 							<Link to="https://open.spotify.com/playlist/1JDfLjKeSxInOYKG9Pf2Ur?si=90ygiSAySd6j-2EziZCEKQ">
 								Añade a esta playlist
 							</Link>{' '}
-							canciones que te gustaría escuchar
+							canciones que te gustaría escuchar.
 						</p>
 					</div>
 					<br />
@@ -154,7 +154,9 @@ const IndexPage = () => (
 							ser que sea), nuestro número de cuenta es el
 							siguiente:
 						</p>
-						<p>ESXX XXXX XXXX XXXXXXXXXXX</p>
+						<strong>IBAN: ES69 0073 0100 5601 7060 4271</strong>
+            <br />
+            <strong>Swift / BIC: OPENESMM</strong>
 					</div>
 					<br />
 					<br />
