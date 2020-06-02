@@ -78,7 +78,7 @@ const IndexPage = () => (
 					/>
 					<br />
 					<br />
-					<Button to="/" cta="Confirmar" />
+					<Button link="https://paul.hanaoka.co" cta="Confirmar" />
 				</div>
 				<div class="right">
 					<p

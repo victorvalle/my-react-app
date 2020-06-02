@@ -12,7 +12,7 @@ const Header = ({ props }) => {
 					Queremos que seais parte de nuestra historia y para ello
 					necesitamos vuestra confirmación
 				</p>
-				<Button to='#' cta='Confirmar' />
+				<Button link='https://paul.hanaoka.co' cta='Confirmar' />
 			</div>
 		</div>
 	)
