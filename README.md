@@ -1,27 +1,28 @@
-# gatsby-starter-default
-The default Gatsby starter.
-
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+# María y Víctor
 
 ## Install
 
-Make sure that you have the Gatsby CLI program installed:
+Install all dependencies
+
 ```sh
-npm install --global gatsby-cli
+npm install
 ```
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+Run from your CLI:
 
-Then you can run it by:
 ```sh
-cd gatsby-example-site
 gatsby develop
 ```
 
-## Deploy
+## Structure
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-# my-react-app
+### Components
+
+Every component lives in a folder — the folder is named after the Component (e.g. Header). Inside the folder you need two files:
+
+1. `index.js` — this is where the components code lives
+1. `styles.module.scss` — this is where any styling for the component goes
+
+#### Adding a new component
+
+In the Component index (`src/components/index.js`), you need to import and export the component. This might seem annoying — however it makes it a lot eaiser to use the components in templates or pages. Instead of having separate import statements for every component, you can simply `import { Component1, Component2, Component3 } from '../components'`.

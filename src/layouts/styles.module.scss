@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Jost');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	font-family: Montserrat, -apple-system, 'Helvetica Neue', sans-serif;
+	margin: 0;
+	font-size: 16px;
+	background-color: #f2f4f7;
+	color: #5e6f96;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.5;
+}
+
+p {
+	font-size: 1rem;
+	color: black;
+}
+
+a {
+	color: #5e6f96;
+	text-decoration: none;
+	font-weight: 600;
+	&:hover {
+		color: #4d4d66;
+	}
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/* background: url('../images/wallpaper3.jpg'); */
+	background-color: white;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+.highlight {
+	font-size: 19px;
+	color: #5e6f96;
+}
+
+section {
+	margin: 0px 250px 50px 150px;
+	padding-top: 75px;
+	padding-bottom: 50px;
+}
+
+h2 {
+	font-size: 26px;
+	font-family: Jost;
+	font-weight: 500;
+	margin-bottom: 30px;
+	&::after {
+		content: '';
+		width: 30px;
+		background-color: #eb493d;
+		height: 2px;
+		display: block;
+		margin-top: 0.25em;
+	}
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.tile {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	display: flex;
+}
+
+.right {
+	flex: 1;
+}
+
+.text {
+	width: 60%;
+}
+
+.map {
+	padding-top: 24px;
+	padding-left: 24px;
+	max-width: 250px;
+}
+
+.sixth {
+	max-width: 15%;
+}
+
+.calendario {
+	position: sticky;
+	align-self: flex-start;
+	top: 40px;
+	width: 142px;
+	height: auto;
+	margin-right: 200px;
+	padding-bottom: 40px;
+}
+
+.our-trip-sm {
+	display: none;
+}
+
+.correct-margin {
+	margin-top: 0;
+}
+
+@media (max-width: 800px) {
+	.wrapper {
+		width: 96%;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	section {
+		margin: 0px 50px 50px 50px;
+		padding-top: 75px;
+		padding-bottom: 0px;
+	}
+
+	.History p {
+		column-count: 1;
+	}
+
+	.sixth {
+		max-width: 100%;
+	}
+
+	.calendario {
+		width: 142px;
+		height: auto;
+		margin-right: 100px;
+		padding-bottom: 40px;
+	}
+}
+
+@media (max-width: 410px) {
+	.wrapper {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	section {
+		margin: 0px 16px 0px 16px;
+		padding-bottom: 50px;
+	}
+
+	.tile {
+		display: block;
+	}
+
+	.text {
+		width: 100%;
+	}
+
+	.map {
+		width: 90%;
+		margin: 0 auto;
+		padding: 40px 0px 0px 0px;
+	}
+
+	.calendario {
+		position: initial;
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.our-trip {
+		display: none;
+	}
+
+	.our-trip-sm {
+		display: block;
+	}
+}
