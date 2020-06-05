@@ -16,7 +16,7 @@ const StickyCTA = ({ top }) => {
 				<span>Viernes 18:00</span>
 			</div>
 			<div style={{margin:'auto'}}/>
-			<Button link='#' cta="Confirmar" />
+			<Button />
 		</div>
 	)
 }
