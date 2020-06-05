@@ -1,5 +1,13 @@
 @import './src/utilities/variables';
 
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
 .wrapper {
 	left: 0;
 	right: 0;
