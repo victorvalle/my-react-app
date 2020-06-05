@@ -1,3 +1,5 @@
+@import './src/utilities/variables';
+
 .TopArea {
 	margin: 0px 50px 0px 50px;
 	padding-top: 75px;
@@ -9,20 +11,20 @@
 		padding-left: 75px;
 		padding-right: 75px;
 		font-size: 16px;
-		color: #5e6f96;
+		color: $link;
 	}
 
 	.MainCall h1 {
 		font-family: Jost;
 		font-size: 3.25rem;
 		font-weight: 600;
-		color: #4d4d66;
+		color: $hover;
 	}
 
 	.MainCall p {
 		font-size: 19px;
 		margin-top: -16px;
-		color: #5e6f96;
+		color: $link;
 	}
 	@media (max-width: 800px) {
 		display: block;

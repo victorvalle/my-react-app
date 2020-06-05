@@ -56,10 +56,10 @@ export default class Illustration extends Component {
 						</clipPath>
 					</defs>
 					<circle
+						className={styles.backgroundLightFill}
 						cx="1160.61"
 						cy="1133.13"
 						r="1075.01"
-						fill="#f2f4f7"
 					/>
 					<g className={styles.sky} clipPath="url(#a)">
 						<path
@@ -125,7 +125,7 @@ export default class Illustration extends Component {
 						data-name="background circle mask"
 					>
 						<path
-							fill="#5e6f96"
+							className={styles.linkFill}
 							d="M51.85 1133.48h2344.18v517.86H51.85z"
 						/>
 						<path

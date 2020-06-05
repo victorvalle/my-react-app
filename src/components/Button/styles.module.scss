@@ -1,9 +1,11 @@
+@import './src/utilities/variables';
+
 .boton {
 	font-size: 16px;
 	font-family: Montserrat;
 	text-transform: uppercase;
 	color: white;
-	background: #eb493d;
+	background: $accent;
 	border: none;
 	font-weight: 600;
 	line-height: 20px;
@@ -16,7 +18,7 @@
 }
 
 .boton:hover {
-	background: #d73e33;
+	background: darken($accent, 20%);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 	transform: translateY(-1px);
 }

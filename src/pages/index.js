@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from '../layouts/styles.module.scss'
-import { FancyHr, Header, Button, Link } from '../components'
+import { FancyHr, Header, Button, Link, StickyCTA } from '../components'
 
 const IndexPage = () => (
 	<main className={styles.wrapper}>
 		<Header />
 		<FancyHr top />
+		<StickyCTA/>
 		<section className={styles.History}>
 			<p className={styles.highlight}>
 				“¿Qué mejor momento para celebrar una boda que el apocalipsis
