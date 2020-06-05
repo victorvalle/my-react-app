@@ -1,10 +1,28 @@
-import React from 'react'
+import React, {Component} from 'react'
 import styles from './styles.module.scss'
 import Button from '../Button'
 
-const StickyCTA = ({ top }) => {
+export default class ScrollArrow extends Component {
+        state = {
+        	isTop: true,
+        }
+
+        componentDidMount() {
+        	document.addEventListener('scroll', () => {
+        		const isTop = window.scrollY < 700
+        		if (isTop !== this.state.isTop) {
+        			this.setState({ isTop })
+        		}
+        	})
+        }
+
+        render() {
 	return (
-		<div className={styles.wrapper}>
+		<div
+			className={`${styles.wrapper} ${
+				this.state.isTop ? styles.hidden : styles.visible
+			}`}
+		>
 			<div className={styles.StickyCTA}>
 				<div className={styles.calendarIcon}>
 					<span>Set</span>
@@ -20,5 +38,4 @@ const StickyCTA = ({ top }) => {
 		</div>
 	)
 }
-
-export default StickyCTA
+}
