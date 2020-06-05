@@ -79,7 +79,7 @@ const IndexPage = () => (
 					/>
 					<br />
 					<br />
-					<Button link="https://docs.google.com/forms/d/e/1FAIpQLSccjBLFpVGyLkPyBj1SbkdB6PQbkSRBeNMcVzjmGhSkEOyj9g/viewform?usp=sf_link" cta="Confirmar" />
+					<Button />
 				</div>
 				<div class="right">
 					<p
