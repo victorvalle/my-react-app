@@ -7,11 +7,13 @@ const FancyHr = ({ top }) => {
 			className={`${styles.fancyHr} && ${top ? styles.top : styles.bottom}`}
 		>
 			<img
+				alt=''
                 className={styles.start}
 				src={`${top	? require('../../images/break1.png') : require('../../images/leaf-left.png')}`}
-			/>
+				/>
 			<hr />
 			<img
+				alt=''
                 className={styles.end}
 				src={`${
 							top

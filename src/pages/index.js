@@ -6,7 +6,7 @@ const IndexPage = () => (
 	<main className={styles.wrapper}>
 		<Header />
 		<FancyHr top />
-		<StickyCTA/>
+		<StickyCTA />
 		<section className={styles.History}>
 			<p className={styles.highlight}>
 				“¿Qué mejor momento para celebrar una boda que el apocalipsis
@@ -36,7 +36,11 @@ const IndexPage = () => (
 					</p>
 				</div>
 				<div className={`${styles.right} ${styles.map}`}>
-					<img src={require('../images/camino.png')} width="100%" />
+					<img
+						alt=""
+						src={require('../images/camino.png')}
+						width="100%"
+					/>
 				</div>
 			</div>
 			<br />
@@ -59,11 +63,13 @@ const IndexPage = () => (
 				limones. El éxito estaba asegurado.
 			</p>
 			<img
+				alt=""
 				className={styles.ourTrip}
 				src={require('../images/OurTrip.png')}
 				width="100%"
 			/>
 			<img
+				alt=""
 				className={styles.ourTripSm}
 				src={require('../images/OurTripSmall.png')}
 				width="100%"
@@ -74,6 +80,7 @@ const IndexPage = () => (
 			<div className={styles.tile}>
 				<div className={styles.calendario}>
 					<img
+						alt=""
 						src={require('../images/calendario.png')}
 						width="100%"
 					/>
@@ -94,6 +101,7 @@ const IndexPage = () => (
 					<br />
 					<div>
 						<img
+							alt=""
 							src={require('../images/map-point.png')}
 							height="50px"
 						/>
@@ -111,7 +119,11 @@ const IndexPage = () => (
 					<br />
 					<br />
 					<div>
-						<img src={require('../images/bus.png')} height="50px" />
+						<img
+							alt=""
+							src={require('../images/bus.png')}
+							height="50px"
+						/>
 						<p>
 							Si no puedes o no te apetece coger el coche para
 							llegar, no te preocupes. Queremos que disfrutes y te
@@ -131,6 +143,7 @@ const IndexPage = () => (
 					<br />
 					<div>
 						<img
+							alt=""
 							src={require('../images/spotify.png')}
 							height="50px"
 						/>
@@ -146,6 +159,7 @@ const IndexPage = () => (
 					<br />
 					<div>
 						<img
+							alt=""
 							src={require('../images/gift.png')}
 							height="50px"
 						/>
@@ -156,8 +170,8 @@ const IndexPage = () => (
 							siguiente:
 						</p>
 						<strong>IBAN: ES69 0073 0100 5601 7060 4271</strong>
-            <br />
-            <strong>Swift / BIC: OPENESMM</strong>
+						<br />
+						<strong>Swift / BIC: OPENESMM</strong>
 					</div>
 					<br />
 					<br />
@@ -166,7 +180,6 @@ const IndexPage = () => (
 		</section>
 		<FancyHr />
 		<section className={styles.Place}>
-
 			<h2>En resumen</h2>
 			<br />
 
