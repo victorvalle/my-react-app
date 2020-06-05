@@ -4,19 +4,19 @@ import Button from '../Button'
 
 const StickyCTA = ({ top }) => {
 	return (
-		<div
-			className={styles.StickyCTA}
-		>
-			<div className={styles.calendarIcon}>
-				<span>Set</span>
-				<span>18</span>
+		<div className={styles.wrapper}>
+			<div className={styles.StickyCTA}>
+				<div className={styles.calendarIcon}>
+					<span>Set</span>
+					<span>18</span>
+				</div>
+				<div className={styles.dayTime}>
+					<span>Septiembre 18</span>
+					<span>Viernes 18:00</span>
+				</div>
+				<div style={{ margin: 'auto' }} />
+				<Button />
 			</div>
-			<div className={styles.dayTime}>
-				<span>Septiembre 18</span>
-				<span>Viernes 18:00</span>
-			</div>
-			<div style={{margin:'auto'}}/>
-			<Button />
 		</div>
 	)
 }

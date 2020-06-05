@@ -1,59 +1,73 @@
 @import './src/utilities/variables';
 
-.StickyCTA {
+.wrapper {
+	left: 0;
+	right: 0;
 	position: fixed;
 	bottom: 0;
-	left: 1rem;
-	display: flex;
-	padding: 1rem 1rem 1.4rem;
-	width: calc(100% - 2rem);
-	border-top-left-radius: 1rem;
-	border-top-right-radius: 1rem;
-	align-items: center;
-	box-sizing: border-box;
-	justify-content: space-between;
-	backdrop-filter: blur(1em);
 	z-index: 99;
+	.StickyCTA {
+		display: flex;
+		padding: 1rem 1rem 1.4rem;
+		margin: 0 1rem;
+		border-top-left-radius: 1rem;
+		border-top-right-radius: 1rem;
+		align-items: center;
+		backdrop-filter: blur(1em);
 
-	.calendarIcon,
-	.dayTime {
-		span {
-			display: block;
-			font-weight: 900;
-			color: $text;
-			line-height: 1.4;
+		.calendarIcon,
+		.dayTime {
+			span {
+				display: block;
+				font-weight: 900;
+				color: $text;
+				line-height: 1.4;
+			}
 		}
-	}
 
-	.dayTime {
-		margin-left: 1rem;
-		span:last-of-type {
-			font-weight: 100;
+		.dayTime {
+			margin-left: 1rem;
+			span:last-of-type {
+				font-weight: 100;
+			}
 		}
-	}
 
-	.calendarIcon {
-		text-align: center;
-		height: 3.6rem;
-		width: 3.5rem;
-		background: $backgroundLight;
-		border-radius: $borderRadius;
-		overflow: hidden;
-		font-size: 1.6rem;
+		.calendarIcon {
+			text-align: center;
+			height: 3.6rem;
+			width: 3.5rem;
+			background: $backgroundLight;
+			border-radius: $borderRadius;
+			overflow: hidden;
+			font-size: 1.6rem;
 
-		span:first-of-type {
-			color: $link;
-			background: $border;
-			font-size: 0.7rem;
-			padding: 0.1rem 0;
-			@include small-caps;
+			span:first-of-type {
+				color: $link;
+				background: $border;
+				font-size: 0.7rem;
+				padding: 0.1rem 0;
+				@include small-caps;
+			}
+			span:last-of-type {
+				line-height: 1.3;
+			}
 		}
-		span:last-of-type {
-			line-height: 1.3;
-		}
-	}
 
-	@media (max-width: 500px) {
-		padding: 1rem;
+		@media (max-width: 500px) {
+			padding: 0.5rem 0.5rem 1rem;
+			margin: 0 0.5rem;
+			.calendarIcon {
+				height: 2.3rem;
+				width: 2rem;
+				font-size: 0.9rem;
+				span:first-of-type {
+					font-size: 0.4rem;
+					line-height: 1.5;
+				}
+			}
+			.dayTime {
+				margin-left: 0.5rem;
+			}
+		}
 	}
 }
