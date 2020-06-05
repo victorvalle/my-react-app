@@ -1,6 +1,15 @@
 // colors
 $backgroundLight: #f2f4f7;
 $link: #5e6f96;
-$hover: #4d4d66;
+$text: #4d4d66;
+$hover: $text;
 $accent: #eb493d;
 $border: #d1dbef;
+
+$borderRadius: 0.5rem;
+
+@mixin small-caps {
+	text-transform: uppercase;
+	letter-spacing: 0.25ch;
+	font-weight: 900;
+}
