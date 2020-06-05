@@ -1,3 +1,14 @@
+@import './src/utilities/variables';
+
+// Color classes
+.backgroundLightFill {
+	fill: $backgroundLight;
+}
+
+.linkFill {
+	fill: $link;
+}
+
 .Illustration {
 	width: 45%;
 
