@@ -49,7 +49,7 @@ const IndexPage = () => (
 			<p>
 				Hemos vivido muchísimas aventuras: hemos nadado con tiburones,
 				nos hemos quedado sin donde dormir en el culo del mundo, hemos
-				sigo acorralados por monos, alguno ha sido mordido por un
+				sido acorralados por monos, alguno ha sido mordido por un
 				équido, pero sobre todo hemos disfrutado, mucho, y hemos
 				construido una preciosa familia humano-felina. Y por eso, ha
 				llegado el momento de dar un paso más.{' '}
