@@ -29,7 +29,7 @@ const IndexPage = () => (
 					<p>
 						Hace unos dos años y medio nuestros caminos se cruzaron
 						y el amor por los animales, la naturaleza y la pasión
-						loca por conocer mundo terminó de unirnos. Desde ese
+						loca por conocer mundo terminaron de unirnos. Desde ese
 						momento empezamos a construir una vida juntos llenándola
 						de todas esas pasiones y algunas más, que hemos ido
 						descubriendo juntos.
