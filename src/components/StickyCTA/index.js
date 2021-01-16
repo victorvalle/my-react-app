@@ -25,11 +25,11 @@ export default class ScrollArrow extends Component {
 		>
 			<div className={styles.StickyCTA}>
 				<div className={styles.calendarIcon}>
-					<span>Set</span>
-					<span>18</span>
+					<span>Jul</span>
+					<span>23</span>
 				</div>
 				<div className={styles.dayTime}>
-					<span>Septiembre 18</span>
+					<span>Julio 23</span>
 					<span>Viernes 18:00</span>
 				</div>
 				<div style={{ margin: 'auto' }} />

@@ -190,7 +190,7 @@ const IndexPage = () => (
 				</div>
 				<div className={styles.sixth}>
 					<strong>When</strong>
-					<p>18 Sept 2020, 18:00</p>
+					<p>23 Julio 2021, 18:00</p>
 				</div>
 				<div className={styles.sixth}>
 					<strong>Who</strong>
