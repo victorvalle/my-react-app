@@ -62,16 +62,20 @@ const IndexPage = () => (
 				día invierno, tirado en una toalla y ataviado con un bañador de
 				limones. El éxito estaba asegurado.
 			</p>
+			<br/>
+			<br/>
+			<br/>
+
 			<img
 				alt=""
 				className={styles.ourTrip}
-				src={require('../images/OurTrip.png')}
+				src={require('../images/trip.png')}
 				width="100%"
 			/>
 			<img
 				alt=""
 				className={styles.ourTripSm}
-				src={require('../images/OurTripSmall.png')}
+				src={require('../images/trip-sm.png')}
 				width="100%"
 			/>
 		</section>
@@ -148,7 +152,9 @@ const IndexPage = () => (
 							height="50px"
 						/>
 						<p>
-							Ayúndanos a construir la fiesta.{' '}
+							¡Ayúndanos a construir la fiesta!
+						</p>
+						<p>	
 							<Link to="https://open.spotify.com/playlist/1JDfLjKeSxInOYKG9Pf2Ur?si=90ygiSAySd6j-2EziZCEKQ">
 								Añade a esta playlist
 							</Link>{' '}
