@@ -9,10 +9,7 @@ const IndexPage = () => (
 		<StickyCTA />
 		<section className={styles.History}>
 			<p className={styles.highlight}>
-				“¿Qué mejor momento para celebrar una boda que el apocalipsis
-				zombie?” Esto podría haberlo dicho Meri perfectamente y hubiera
-				sido divertido… de no ser verdad. Bueno, a ver… que no se acaba
-				el mundo… (de momento), pero sí, ¡NOS CASAMOS!.
+				¡NOS CASAMOS! Ahora sí, de verdad de la buena.
 			</p>
 			<br />
 			<br />
@@ -21,63 +18,52 @@ const IndexPage = () => (
 			<div className={styles.tile}>
 				<div className={styles.text}>
 					<p>
-						A veces crees que lo que buscas está lejos, en ocasiones
-						demasiado, pero en este caso no podíamos imaginar lo
-						cerca que estaba, tanto que, de Carabanchel a Aluche,
-						donde nos criamos, solo había un pequeño paseo.
+						Podríamos contaros la historia bonita de Víctor hincando la rodilla en un atardecer en la playa, pero como todos sabemos la verdad, nos lo vamos a ahorrar.
 					</p>
 					<p>
-						Hace unos dos años y medio nuestros caminos se cruzaron
-						y el amor por los animales, la naturaleza y la pasión
-						loca por conocer mundo terminaron de unirnos. Desde ese
-						momento empezamos a construir una vida juntos llenándola
-						de todas esas pasiones y algunas más, que hemos ido
-						descubriendo juntos.
+						Lo que sí es cierto es que criados en Aluche y Carabanchel, a pocos metros el uno del otro, vimos cómo se cruzaban nuestros caminos una tarde en La Latina. Un concierto de Beyoncé de fondo, un taxista halagüeño, y las coloridas luces de la Cabalgata de Reyes terminaron de obrar la magia (si queréis más detalles os los contamos después de la segunda copa de vino). Después de muchas aventuras decidimos casarnos.z
+					</p>
+					<p>
+						El resto de la historia ya la sabéis, un cúmulo de situaciones, dificultades y frustración por todas partes hizo que no pudiéramos celebrar la boda del Apocalipsis. Pero estamos de vuelta con más ganas y más ilusión para celebrar “The Wedding Reloaded 2021”. Prometemos que la segunda versión será mejor que la primera, más que nada porque no existió.
+					</p>
+					<p>
+						El resto de la historia ya la sabéis, un cúmulo de situaciones, dificultades y frustración por todas partes hizo que no pudiéramos celebrar la boda del Apocalipsis. Pero estamos de vuelta con más ganas y más ilusión para celebrar “The Wedding Reloaded 2021”. Prometemos que la segunda versión será mejor que la primera, más que nada porque no existió.
 					</p>
 				</div>
 				<div className={`${styles.right} ${styles.map}`}>
 					<img
 						alt=""
-						src={require('../images/camino.png')}
+						src={require('../images/trip-mobile.png')}
 						width="100%"
 					/>
 				</div>
 			</div>
 			<br />
 			<br />
-
-			<p>
-				Hemos vivido muchísimas aventuras: hemos nadado con tiburones,
-				nos hemos quedado sin donde dormir en el culo del mundo, hemos
-				sido acorralados por monos, alguno ha sido mordido por un
-				équido, pero sobre todo hemos disfrutado, mucho, y hemos
-				construido una preciosa familia humano-felina. Y por eso, ha
-				llegado el momento de dar un paso más.{' '}
-			</p>
-			<p>
-				De Málaga a Valencia, de Denia a Kenia, de Vietnam al Mar Rojo,
-				pasando por Lisboa, Amsterdam… parecía que Victor no había
-				encontrado el lugar indicado para la pedida hasta que lo vio
-				claro: La Malvarrosa. Sí, amigos, la pedida se hizo un soleado
-				día invierno, tirado en una toalla y ataviado con un bañador de
-				limones. El éxito estaba asegurado.
-			</p>
-			<br/>
-			<br/>
-			<br/>
-
-			<img
+			{/* <img
 				alt=""
 				className={styles.ourTrip}
-				src={require('../images/trip.png')}
+				src={require('../images/trip-desktop.png')}
 				width="100%"
 			/>
 			<img
 				alt=""
 				className={styles.ourTripSm}
-				src={require('../images/trip-sm.png')}
+				src={require('../images/trip-mobile.png')}
 				width="100%"
 			/>
+			<br />
+			<br />
+
+			<p>
+				El resto de la historia ya la sabéis, un cúmulo de situaciones, dificultades y frustración por todas partes hizo que no pudiéramos celebrar la boda del Apocalipsis. Pero estamos de vuelta con más ganas y más ilusión para celebrar “The Wedding Reloaded 2021”. Prometemos que la segunda versión será mejor que la primera, más que nada porque no existió.
+			</p>
+			<p>
+				El resto de la historia ya la sabéis, un cúmulo de situaciones, dificultades y frustración por todas partes hizo que no pudiéramos celebrar la boda del Apocalipsis. Pero estamos de vuelta con más ganas y más ilusión para celebrar “The Wedding Reloaded 2021”. Prometemos que la segunda versión será mejor que la primera, más que nada porque no existió.
+			</p>
+			<br/>
+			<br/>
+			<br/> */}
 		</section>
 		<section className={styles.yourTurn}>
 			<h2>Ahora te toca a ti</h2>

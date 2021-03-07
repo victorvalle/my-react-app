@@ -33,7 +33,6 @@ a {
 	margin: 0 auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	/* background: url('../images/wallpaper3.jpg'); */
 	background-color: white;
 	height: auto;
 	background-size: cover;
@@ -88,9 +87,8 @@ h2 {
 }
 
 .map {
-	padding-top: 24px;
-	padding-left: 24px;
-	max-width: 250px;
+	padding-top: 48px;
+	padding-left: 48px;
 }
 
 .sixth {
@@ -113,6 +111,10 @@ h2 {
 
 .correct-margin {
 	margin-top: 0;
+}
+
+.yourTurn {
+	padding-top: 0;
 }
 
 @media (max-width: 800px) {
@@ -138,6 +140,29 @@ h2 {
 	.calendario {
 		display: none;
 	}
+
+	.tile {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.text {
+		width: 100%;
+	}
+
+	.map {
+		padding: 15%;
+		padding-bottom: 0%;
+	}
+
+	.sixth {
+		width: 100%;
+		
+		> p {
+			margin-top: 0px;
+			margin-bottom: 24px;
+		}
+	}
 }
 
 @media (max-width: 410px) {
@@ -151,25 +176,8 @@ h2 {
 		padding-bottom: 50px;
 	}
 
-	.tile {
-		display: block;
-	}
-
-	.text {
-		width: 100%;
-	}
-
 	.map {
-		width: 90%;
-		margin: 0 auto;
-		padding: 40px 0px 0px 0px;
-	}
-
-	.our-trip {
-		display: none;
-	}
-
-	.our-trip-sm {
-		display: block;
+		padding: 5%;
+		padding-bottom: 0%;
 	}
 }
