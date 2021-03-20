@@ -21,7 +21,7 @@ const IndexPage = () => (
 						Podríamos contaros la historia bonita de Víctor hincando la rodilla en un atardecer en la playa, pero como todos sabemos la verdad, nos lo vamos a ahorrar.
 					</p>
 					<p>
-						Lo que sí es cierto es que criados en Aluche y Carabanchel, a pocos metros el uno del otro, vimos cómo se cruzaban nuestros caminos una tarde en La Latina. Un concierto de Beyoncé de fondo, un taxista halagüeño, y las coloridas luces de la Cabalgata de Reyes terminaron de obrar la magia (si queréis más detalles os los contamos después de la segunda copa de vino). Después de muchas aventuras decidimos casarnos.z
+						Lo que sí es cierto es que criados en Aluche y Carabanchel, a pocos metros el uno del otro, vimos cómo se cruzaban nuestros caminos una tarde en La Latina. Un concierto de Beyoncé de fondo, un taxista halagüeño, y las coloridas luces de la Cabalgata de Reyes terminaron de obrar la magia (si queréis más detalles os los contamos después de la segunda copa de vino). Después de muchas aventuras decidimos casarnos.
 					</p>
 					<p>
 						El resto de la historia ya la sabéis, un cúmulo de situaciones, dificultades y frustración por todas partes hizo que no pudiéramos celebrar la boda del Apocalipsis. Pero estamos de vuelta con más ganas y más ilusión para celebrar “The Wedding Reloaded 2021”. Prometemos que la segunda versión será mejor que la primera, más que nada porque no existió.
