@@ -105,7 +105,11 @@ h2 {
 	padding-bottom: 40px;
 }
 
-.our-trip-sm {
+.ourTrip {
+	display: inline;
+}
+
+.ourTripSm {
 	display: none;
 }
 
@@ -179,5 +183,13 @@ h2 {
 	.map {
 		padding: 5%;
 		padding-bottom: 0%;
+	}
+
+	.ourTrip {
+		display: none;
+	}
+
+	.ourTripSm {
+		display: inline;
 	}
 }

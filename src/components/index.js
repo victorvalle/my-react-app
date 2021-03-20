@@ -5,4 +5,11 @@ import FancyHr from './FancyHr'
 import StickyCTA from './StickyCTA'
 import Illustration from './Illustration'
 
-export { Button, FancyHr, Link, Header, Illustration, StickyCTA }
+import ButtonOld from './ButtonOld'
+import HeaderOld from './HeaderOld'
+// import Link from './Link'
+import FancyHrOld from './FancyHrOld'
+// import StickyCTA from './StickyCTA'
+import IllustrationOld from './IllustrationOld'
+
+export { Button, ButtonOld, FancyHr, FancyHrOld, Link, Header, HeaderOld, Illustration, IllustrationOld, StickyCTA }
