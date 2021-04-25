@@ -26,9 +26,6 @@ const IndexPage = () => (
 					<p>
 						El resto de la historia ya la sabéis, un cúmulo de situaciones, dificultades y frustración por todas partes hizo que no pudiéramos celebrar <a href='./old'>la boda del Apocalipsis</a>. Pero estamos de vuelta con más ganas y más ilusión para celebrar “The Wedding Reloaded 2021”. Prometemos que la segunda versión será mejor que la primera, más que nada porque no existió.
 					</p>
-					<p>
-						El resto de la historia ya la sabéis, un cúmulo de situaciones, dificultades y frustración por todas partes hizo que no pudiéramos celebrar la boda del Apocalipsis. Pero estamos de vuelta con más ganas y más ilusión para celebrar “The Wedding Reloaded 2021”. Prometemos que la segunda versión será mejor que la primera, más que nada porque no existió.
-					</p>
 				</div>
 				<div className={`${styles.right} ${styles.map}`}>
 					<img
