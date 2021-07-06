@@ -154,8 +154,7 @@ const IndexPage = () => (
 						/>
 						<p>
 							Con tu presencia es suficiente pero si te apetece
-							contribuir con nuestra luna de miel (cuando pueda
-							ser que sea), nuestro número de cuenta es el
+							contribuir con nuestra luna de miel, nuestro número de cuenta es el
 							siguiente:
 						</p>
 						<strong>IBAN: ES69 0073 0100 5601 7060 4271</strong>
