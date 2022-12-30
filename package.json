@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"author": "Víctor Valle",
 	"dependencies": {
-		"gatsby": "^2.22.12",
+		"gatsby": "^2.32.13",
 		"gatsby-link": "^2.4.3",
 		"gatsby-plugin-react-helmet": "^3.3.2",
 		"gatsby-plugin-sass": "^2.3.2",
